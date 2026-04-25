@@ -930,13 +930,88 @@ div::first-letter {
 
 ### Assignment 1
 
+```css
+.parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  background-color: #f0f0f0;
+  width: 800px;
+  height: 450px;
+  transition: transform 0.5s;
+}
+
+.parent:hover {
+  transform: translateY(-20px);
+}
+
+.son {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #dcdcdc;
+  width: 700px;
+  height: 120px;
+  transition: transform 0.5s 0.5s;
+}
+
+.parent:hover .son {
+  transform: translateY(20px);
+}
+
+p {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+```
+
 ---
 
 ### Assignment 2
 
+```css
+div {
+  background-color: azure !important;
+  color: black !important;
+  width: 75vh !important;
+  margin: 0 auto !important;
+  align-content: center;
+  text-align: center;
+  text-indent: -99999px;
+}
+
+div::after {
+  content: "Elzero";
+  display: block;
+  text-indent: 0;
+  margin-top: -100px;
+  font-size: 80px;
+  color: black;
+}
+```
+
 ---
 
 ### Assignment 3
+
+```css
+:root {
+  --mainColor: #009688;
+  --mainPadding: 10px;
+}
+
+div {
+  width: 75vh;
+  height: 50px;
+  color: var(--mainColor, red);
+  border: 2px solid var(--mainColor, black);
+  padding: var(--mainPadding, 10px);
+  margin: 20px auto;
+  align-content: center;
+}
+```
 
 ---
 
@@ -944,25 +1019,311 @@ div::first-letter {
 
 ### Assignment 1
 
+```css
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: #e8e8e8;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ff5733;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div::after,
+div::before {
+  content: "";
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+div::before {
+  right: 240px;
+  background-color: #ff5733;
+  z-index: -2;
+}
+
+div::after {
+  left: 240px;
+  background-color: #03a9f4;
+  z-index: -1;
+}
+```
+
 ---
 
 ### Assignment 2
+
+```css
+main {
+  width: 100vh;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.parent {
+  width: 600px;
+  height: 300px;
+  margin: auto;
+  padding: 10px;
+  background-color: #eeeeee;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: space-between;
+}
+
+.parent div {
+  width: 180px;
+  height: 50px;
+  background: #e74c3c;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+```
 
 ---
 
 ### Assignment 3
 
+```css
+.parent {
+  width: 600px;
+  height: 300px;
+  margin: auto;
+  padding: 10px;
+  background-color: #eeeeee;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.parent div {
+  width: calc(95% / 3);
+  min-height: 40px;
+  background-color: #607d8b;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.one {
+  order: 6;
+  align-self: flex-end;
+}
+
+.two {
+  order: 5;
+}
+
+.five {
+  order: 4;
+}
+
+.four {
+  order: 3;
+}
+
+.three {
+  order: 2;
+  align-self: flex-start;
+}
+```
+
 ---
 
 ### Assignment 4
+
+```css
+.parent {
+  width: 600px;
+  height: 300px;
+  margin: auto;
+  padding: 10px;
+  background-color: #eeeeee;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.parent div {
+  height: calc(95% / 3);
+  min-height: 40px;
+  background-color: #009688;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.one {
+  width: 5%;
+}
+
+.two {
+  width: 50%;
+  align-self: flex-start;
+}
+
+.three {
+  width: 5%;
+}
+```
 
 ---
 
 ### Assignment 5
 
+```css
+.parent {
+  width: 600px;
+  height: 300px;
+  margin: auto;
+  padding: 10px;
+  background-color: #eeeeee;
+  display: flex;
+  flex-flow: row-reverse wrap;
+  justify-content: space-between;
+}
+
+.parent div {
+  width: calc(95% / 6);
+  height: 50%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.one,
+.three {
+  align-self: flex-start;
+}
+
+.two,
+.four {
+  align-self: flex-end;
+}
+
+.one {
+  order: 3;
+  background-color: #ff9800;
+}
+
+.three {
+  order: 1;
+  background-color: #795548;
+}
+
+.two {
+  order: 2;
+  background-color: #8bc34a;
+}
+
+.four {
+  order: 4;
+  background-color: #673ab7;
+}
+```
+
 ---
 
 ### Assignment 6
+
+```css
+:root {
+  --bg-color: #e0e0e0;
+  --gap: 10px;
+  --padding: 15px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  background-color: #eeeeee;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  align-items: stretch;
+  gap: var(--gap);
+  margin-bottom: 10px;
+}
+
+.header .logo {
+  background-color: var(--bg-color);
+  min-width: 120px;
+  padding: var(--padding);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header .links {
+  list-style: none;
+  background-color: var(--bg-color);
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+  padding: var(--padding);
+}
+
+.main-area {
+  display: flex;
+  gap: var(--gap);
+  margin-bottom: 10px;
+}
+
+.main-area .content {
+  background-color: var(--bg-color);
+  padding: var(--padding);
+  min-height: 500px;
+  flex-grow: 3;
+}
+
+.main-area .sidebar {
+  background-color: var(--bg-color);
+  padding: var(--padding);
+  flex-grow: 1;
+}
+
+.footer {
+  background: var(--bg-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--padding);
+}
+```
 
 ---
 
@@ -970,9 +1331,143 @@ div::first-letter {
 
 ### Assignment 1
 
+```css
+:root {
+  --bg-color: #e0e0e0;
+  --gap: 10px;
+  --padding: 15px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div {
+  width: 600px;
+  height: 50px;
+  background-color: var(--bg-color);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 30px;
+  letter-spacing: 10px;
+  border-left: 10px solid #f44336;
+  border-right: 10px solid #673ab7;
+}
+
+div p::first-letter {
+  color: #f44336;
+}
+
+div::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  width: calc(100% + 20px);
+  height: 10px;
+  background-image: linear-gradient(
+    to right,
+    #f44336 20%,
+    #2095f2 20%,
+    #2095f2 40%,
+    #51af55 40%,
+    #51af55 60%,
+    #e91e63 60%,
+    #e91e63 80%,
+    #673ab7 80%
+  );
+}
+
+div::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  right: -10px;
+  width: calc(100% + 20px);
+  height: 10px;
+  background-image: linear-gradient(
+    to right,
+    #f44336 20%,
+    #2095f2 20%,
+    #2095f2 40%,
+    #51af55 40%,
+    #51af55 60%,
+    #e91e63 60%,
+    #e91e63 80%,
+    #673ab7 80%
+  );
+}
+```
+
 ---
 
 ### Assignment 2
+
+```css
+:root {
+  --bg-color: #e0e0e0;
+  --gap: 10px;
+  --padding: 15px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+
+div {
+  width: 600px;
+  height: 50px;
+  background-color: var(--bg-color);
+  position: relative;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 30px;
+  padding-left: 20px;
+}
+
+div::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 2px;
+  background-image: linear-gradient(to right, #f44336 50%, #008e7f 50%);
+}
+
+.one {
+  caret-color: #f44336;
+  pointer-events: all;
+}
+
+.two,
+.three {
+  pointer-events: none;
+  color: rgba(0, 0, 0, 0.2);
+}
+```
 
 ---
 
@@ -980,28 +1475,235 @@ div::first-letter {
 
 ### Assignment 1
 
+```css
+:root {
+  --bg-color: #e0e0e0;
+  --gap: 10px;
+  --padding: 15px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid {
+  background-color: #ddd;
+  padding: 20px;
+  width: 800px;
+  height: 400px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 50px 1fr;
+  gap: 10px;
+  margin: 0 auto;
+}
+
+.grid div {
+  background-color: #607d8b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: white;
+}
+
+.grid div:nth-child(1)::after { content: "Element 1"; }
+.grid div:nth-child(2)::after { content: "Element 2"; }
+.grid div:nth-child(3)::after { content: "Element 3"; }
+.grid div:nth-child(4)::after { content: "Element 4"; }
+.grid div:nth-child(5)::after { content: "Element 5"; }
+.grid div:nth-child(6)::after { content: "Element 6"; }
+```
+
 ---
 
 ### Assignment 2
+
+```css
+:root {
+  --bg-color: #e0e0e0;
+  --gap: 10px;
+  --padding: 15px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 160px;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+    "header header"
+    "section aside"
+    "footer footer";
+  height: 100vh;
+}
+
+header {
+  grid-area: header;
+  background-color: #03a9f4;
+  padding: 10px;
+}
+
+section {
+  grid-area: section;
+  background-color: #ff5722;
+  padding: 10px;
+}
+
+aside {
+  grid-area: aside;
+  background-color: #607d8b;
+  padding: 10px;
+}
+
+footer {
+  grid-area: footer;
+  background-color: #009688;
+  padding: 10px;
+}
+
+header::after { content: "Header"; color: white; }
+section::after { content: "Section"; color: white; }
+aside::after { content: "Aside"; color: white; }
+footer::after { content: "Footer"; color: white; }
+```
 
 ---
 
 ### Assignment 3
 
+```css
+:root {
+  --bg-color: #e0e0e0;
+  --gap: 10px;
+  --padding: 15px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.grid {
+  background-color: #ddd;
+  padding: 20px;
+  width: 800px;
+  height: 400px;
+  display: grid;
+  grid-template-columns: auto repeat(2, 1fr) auto;
+  grid-template-rows: 1fr auto;
+  gap: 20px;
+}
+
+.grid div {
+  background-color: #403f3f;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+```
+
 ---
 
 ### Assignment 4
+
+```css
+.grid {
+  background-color: #ddd;
+  padding: 20px;
+  width: 800px;
+  height: 400px;
+  display: grid;
+  grid-template-areas:
+    "eight eight eight"
+    "two two three"
+    "four five five"
+    "six five five"
+    "seven five five"
+    "one one one";
+  gap: 20px;
+}
+
+.grid div {
+  background-color: #2196f3;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.one { grid-area: one; }
+.two { grid-area: two; }
+.three { grid-area: three; }
+.four { grid-area: four; }
+.five { grid-area: five; }
+.six { grid-area: six; }
+.seven { grid-area: seven; }
+.eight { grid-area: eight; }
+```
 
 ---
 
 ### Assignment 5
 
+```css
+.grid {
+  background-color: #ddd;
+  padding: 20px;
+  width: 800px;
+  height: 400px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+    "one two"
+    ". ."
+    "three four";
+  gap: 20px;
+}
+
+.grid div {
+  background-color: #e91e63;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid :nth-child(1) { grid-area: one; }
+.grid :nth-child(2) { grid-area: two; }
+.grid :nth-child(3) { grid-area: three; }
+.grid :nth-child(4) { grid-area: four; }
+```
+
 ---
-
-### Assignment 6
+### Assignment 5
 
 ---
-
 ## Scale, Rotate, Translate
 
 ### Assignment 1
