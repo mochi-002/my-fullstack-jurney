@@ -1,1 +1,1 @@
-[[020_Notes/tracks/Fullstack/02-Backend/02-JavaScript/02-JavaScript|02-JavaScript]]
+[[020_Notes/tracks/Fullstack/02-Backend/02-JavaScript/01.0-JavaScript|Java Script Fundementals]]

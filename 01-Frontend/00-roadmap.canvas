@@ -1,111 +1,5 @@
 {
 	"nodes":[
-		{"id":"48a8eee2e494527f","type":"text","text":"what is domain name?","x":23,"y":-1140,"width":258,"height":77,"color":"6"},
-		{"id":"108be129331702be","type":"text","text":"what is hosting?","x":43,"y":-1038,"width":198,"height":60,"color":"6"},
-		{"id":"23f12a440fe115e8","type":"text","text":"Browsers and how they work?","x":1,"y":-960,"width":340,"height":60,"color":"6"},
-		{"id":"69f3d7778b08ebe9","type":"text","text":"DNS and how it works?","x":23,"y":-880,"width":298,"height":60,"color":"6"},
-		{
-			"id":"72429c2a56b1fb68",
-			"type":"text",
-			"text":"# 03-CSS",
-			"styleAttributes":{},
-			"x":-342,
-			"y":-607,
-			"width":213,
-			"height":60,
-			"color":"4"
-		},
-		{
-			"id":"7f7bfbd3842b8f54",
-			"type":"text",
-			"text":"# 04-JavaScript",
-			"styleAttributes":{},
-			"x":-342,
-			"y":-82,
-			"width":302,
-			"height":60,
-			"color":"3"
-		},
-		{
-			"id":"7c305e34d6863d4e",
-			"type":"text",
-			"text":"# 04-4 Static Web Pages Implementation",
-			"styleAttributes":{},
-			"x":-562,
-			"y":-348,
-			"width":682,
-			"height":60,
-			"color":"3"
-		},
-		{
-			"id":"ba6820a45e1f403c",
-			"type":"text",
-			"text":"#    Start",
-			"styleAttributes":{},
-			"x":-316,
-			"y":-1620,
-			"width":158,
-			"height":60,
-			"color":"1"
-		},
-		{
-			"id":"2666b20182093cd0",
-			"type":"text",
-			"text":"# 05-Version Control\n# 06-VCS Hosting",
-			"styleAttributes":{},
-			"x":-133,
-			"y":226,
-			"width":360,
-			"height":120,
-			"color":"4"
-		},
-		{"id":"05c793239ab4528c","type":"file","file":"020_Notes/tracks/Fullstack/01-Frontend/03-CSS/CSS.md","x":172,"y":-718,"width":400,"height":318,"color":"6"},
-		{"id":"3dceb6686f14c6d1","type":"file","file":"020_Notes/tracks/Fullstack/01-Frontend/01-Web-Basics/Internet.md","x":572,"y":-1200,"width":400,"height":222,"color":"6"},
-		{"id":"1c8dcd2368decc71","type":"text","text":"what is http?","x":52,"y":-1220,"width":181,"height":60,"color":"6"},
-		{"id":"c17fd7d5337aa365","type":"text","text":"How does the internet work?","x":1,"y":-1300,"width":320,"height":60,"color":"6"},
-		{
-			"id":"e821fb9439bbbe6f",
-			"type":"text",
-			"text":"# 01-Internet",
-			"styleAttributes":{},
-			"x":-359,
-			"y":-1068,
-			"width":232,
-			"height":60,
-			"color":"4"
-		},
-		{
-			"id":"7e130725f8c5c7fd",
-			"type":"text",
-			"text":"# 02-HTML",
-			"styleAttributes":{},
-			"x":-471,
-			"y":-880,
-			"width":223,
-			"height":60,
-			"color":"4"
-		},
-		{"id":"9bdcf4961b76738d","type":"file","file":"020_Notes/tracks/Fullstack/01-Frontend/02-HTML/HTML Assignments.md","x":-1268,"y":-900,"width":412,"height":60,"color":"6"},
-		{"id":"5b5088cbd635a3f9","type":"file","file":"020_Notes/tracks/Fullstack/01-Frontend/04-Milestone-Static-Pages/4 Static Web Pages Implementation.md","x":-1300,"y":-480,"width":692,"height":60,"color":"3"},
-		{"id":"7241fbc69c767430","type":"file","file":"020_Notes/tracks/Fullstack/01-Frontend/05-JavaScript/JavaScript.md","x":-856,"y":-112,"width":412,"height":60,"color":"3"},
-		{"id":"940a589bb8527513","type":"file","file":"020_Notes/tracks/Fullstack/01-Frontend/05-JavaScript/JavaScript Assignments.md","x":-1164,"y":-240,"width":514,"height":60,"color":"3"},
-		{"id":"0fdf2afc2a740a13","type":"file","file":"020_Notes/tracks/Fullstack/01-Frontend/06-Workflow-and-Tooling/01-Git & GitHub.md","x":-714,"y":32,"width":466,"height":254,"color":"6"},
-		{
-			"id":"795bcb8c1187306b",
-			"type":"text",
-			"text":"# 07-Package Managers",
-			"styleAttributes":{},
-			"x":27,
-			"y":460,
-			"width":400,
-			"height":60,
-			"color":"4"
-		},
-		{"id":"e50e0aba1e68181f","type":"file","file":"020_Notes/tracks/Fullstack/01-Frontend/06-Workflow-and-Tooling/02-Package Managers - npm.md","x":540,"y":261,"width":500,"height":170,"color":"6"},
-		{"id":"886e45403c28086f","type":"file","file":"020_Notes/tracks/Fullstack/01-Frontend/06-Workflow-and-Tooling/02-Package Managers - Example.md","x":695,"y":520,"width":560,"height":160,"color":"6"},
-		{"id":"5e9718ee1ea9131d","type":"file","file":"020_Notes/tracks/Fullstack/01-Frontend/02-HTML/HTML.md","x":-1020,"y":-667,"width":412,"height":60,"color":"6"},
-		{"id":"4a50fdead159d6ec","type":"file","file":"020_Notes/tracks/Fullstack/01-Frontend/03-CSS/CSS Assignments.md","x":495,"y":-240,"width":400,"height":125,"color":"6"},
-		{"id":"b716e2874777f205","type":"file","file":"020_Notes/tracks/Fullstack/01-Frontend/03-CSS/CSS Advanced Assignments.md","x":640,"y":-759,"width":400,"height":400,"color":"1"},
 		{
 			"id":"7defccc15d63195a",
 			"type":"file",
@@ -127,7 +21,103 @@
 			"width":606,
 			"height":1312,
 			"color":"1"
-		}
+		},
+		{
+			"id":"7e130725f8c5c7fd",
+			"type":"text",
+			"text":"# 02-HTML",
+			"styleAttributes":{},
+			"x":-531,
+			"y":-530,
+			"width":223,
+			"height":60,
+			"color":"4"
+		},
+		{
+			"id":"e821fb9439bbbe6f",
+			"type":"text",
+			"text":"# 01-Internet",
+			"styleAttributes":{},
+			"x":-419,
+			"y":-718,
+			"width":232,
+			"height":60,
+			"color":"4"
+		},
+		{
+			"id":"ba6820a45e1f403c",
+			"type":"text",
+			"text":"#    Start",
+			"styleAttributes":{},
+			"x":-376,
+			"y":-1270,
+			"width":158,
+			"height":60,
+			"color":"1"
+		},
+		{"id":"c17fd7d5337aa365","type":"text","text":"How does the internet work?","x":-59,"y":-950,"width":320,"height":60,"color":"6"},
+		{"id":"23f12a440fe115e8","type":"text","text":"Browsers and how they work?","x":-59,"y":-610,"width":340,"height":60,"color":"6"},
+		{"id":"48a8eee2e494527f","type":"text","text":"what is domain name?","x":-37,"y":-790,"width":258,"height":77,"color":"6"},
+		{"id":"69f3d7778b08ebe9","type":"text","text":"DNS and how it works?","x":-37,"y":-530,"width":298,"height":60,"color":"6"},
+		{"id":"108be129331702be","type":"text","text":"what is hosting?","x":-17,"y":-688,"width":198,"height":60,"color":"6"},
+		{"id":"1c8dcd2368decc71","type":"text","text":"what is http?","x":-8,"y":-870,"width":181,"height":60,"color":"6"},
+		{"id":"3dceb6686f14c6d1","type":"file","file":"020_Notes/tracks/Fullstack/01-Frontend/01-Web-Basics/Internet.md","x":512,"y":-850,"width":400,"height":222,"color":"6"},
+		{"id":"9bdcf4961b76738d","type":"file","file":"020_Notes/tracks/Fullstack/01-Frontend/02-HTML/HTML Assignments.md","x":-1328,"y":-550,"width":412,"height":60,"color":"6"},
+		{
+			"id":"2666b20182093cd0",
+			"type":"text",
+			"text":"# 05-Version Control\n# 06-VCS Hosting",
+			"styleAttributes":{},
+			"x":-193,
+			"y":576,
+			"width":360,
+			"height":120,
+			"color":"4"
+		},
+		{"id":"e50e0aba1e68181f","type":"file","file":"020_Notes/tracks/Fullstack/01-Frontend/06-Workflow-and-Tooling/02.0-Package Managers - npm.md","x":480,"y":576,"width":500,"height":205,"color":"6"},
+		{
+			"id":"795bcb8c1187306b",
+			"type":"text",
+			"text":"# 07-Package Managers",
+			"styleAttributes":{},
+			"x":-33,
+			"y":810,
+			"width":400,
+			"height":60,
+			"color":"4"
+		},
+		{"id":"886e45403c28086f","type":"file","file":"020_Notes/tracks/Fullstack/01-Frontend/06-Workflow-and-Tooling/02.1-Package Managers - Example.md","x":635,"y":870,"width":560,"height":210,"color":"6"},
+		{"id":"05c793239ab4528c","type":"file","file":"020_Notes/tracks/Fullstack/01-Frontend/03-CSS/01-CSS.md","x":112,"y":-368,"width":400,"height":318,"color":"6"},
+		{
+			"id":"72429c2a56b1fb68",
+			"type":"text",
+			"text":"# 03-CSS",
+			"styleAttributes":{},
+			"x":-402,
+			"y":-257,
+			"width":213,
+			"height":60,
+			"color":"4"
+		},
+		{"id":"4a50fdead159d6ec","type":"file","file":"020_Notes/tracks/Fullstack/01-Frontend/03-CSS/02-CSS Assignments.md","x":435,"y":110,"width":400,"height":60,"color":"6"},
+		{
+			"id":"7f7bfbd3842b8f54",
+			"type":"text",
+			"text":"# 04-JavaScript",
+			"styleAttributes":{},
+			"x":-402,
+			"y":268,
+			"width":302,
+			"height":60,
+			"color":"4"
+		},
+		{"id":"e6e35bec5b4f3311","type":"file","file":"020_Notes/tracks/Fullstack/01-Frontend/03-CSS/03-CSS Extra Assignments.md","x":635,"y":-110,"width":468,"height":80,"color":"3"},
+		{"id":"940a589bb8527513","type":"file","file":"020_Notes/tracks/Fullstack/01-Frontend/05-JavaScript/JavaScript Assignments.md","x":-1224,"y":110,"width":514,"height":60,"color":"6"},
+		{"id":"7241fbc69c767430","type":"file","file":"020_Notes/tracks/Fullstack/01-Frontend/05-JavaScript/JavaScript.md","x":-916,"y":238,"width":412,"height":60,"color":"6"},
+		{"id":"0fdf2afc2a740a13","type":"file","file":"020_Notes/tracks/Fullstack/01-Frontend/06-Workflow-and-Tooling/01-Git & GitHub.md","x":-774,"y":382,"width":466,"height":254,"color":"6"},
+		{"id":"5e9718ee1ea9131d","type":"file","file":"020_Notes/tracks/Fullstack/01-Frontend/02-HTML/HTML.md","x":-1080,"y":-317,"width":412,"height":60,"color":"6"},
+		{"id":"b716e2874777f205","type":"file","file":"020_Notes/tracks/Fullstack/01-Frontend/03-CSS/04-CSS Advanced Topics.md","x":835,"y":-329,"width":565,"height":72,"color":"1"},
+		{"id":"5b5088cbd635a3f9","type":"file","file":"020_Notes/tracks/Fullstack/01-Frontend/04-Milestone-Static-Pages/4 Static Web Pages Implementation.md","x":-641,"y":-18,"width":692,"height":60,"color":"3"}
 	],
 	"edges":[
 		{
@@ -196,8 +186,8 @@
 			"toFloating":false,
 			"fromNode":"4a50fdead159d6ec",
 			"fromSide":"right",
-			"toNode":"b716e2874777f205",
-			"toSide":"right",
+			"toNode":"e6e35bec5b4f3311",
+			"toSide":"bottom",
 			"color":"#000000"
 		},
 		{
@@ -207,7 +197,7 @@
 			"fromFloating":false,
 			"fromNode":"72429c2a56b1fb68",
 			"fromSide":"bottom",
-			"toNode":"7c305e34d6863d4e",
+			"toNode":"5b5088cbd635a3f9",
 			"toSide":"top",
 			"toEnd":"none",
 			"color":"#ffffff"
@@ -356,7 +346,8 @@
 			"id":"a8e8a49916fa2d7d",
 			"styleAttributes":{"pathfindingMethod":"square"},
 			"toFloating":false,
-			"fromNode":"7c305e34d6863d4e",
+			"fromFloating":false,
+			"fromNode":"5b5088cbd635a3f9",
 			"fromSide":"bottom",
 			"toNode":"7f7bfbd3842b8f54",
 			"toSide":"top",
@@ -382,16 +373,6 @@
 			"fromSide":"left",
 			"toNode":"940a589bb8527513",
 			"toSide":"bottom",
-			"color":"#000000"
-		},
-		{
-			"id":"2eb67590d682df8b",
-			"styleAttributes":{"path":"short-dashed","arrow":"triangle-outline"},
-			"toFloating":false,
-			"fromNode":"7c305e34d6863d4e",
-			"fromSide":"left",
-			"toNode":"5b5088cbd635a3f9",
-			"toSide":"right",
 			"color":"#000000"
 		},
 		{
@@ -460,6 +441,16 @@
 			"fromSide":"right",
 			"toNode":"886e45403c28086f",
 			"toSide":"left",
+			"color":"#000000"
+		},
+		{
+			"id":"395f0608bbe60ae7",
+			"styleAttributes":{"path":"long-dashed","arrow":"triangle-outline"},
+			"toFloating":false,
+			"fromNode":"e6e35bec5b4f3311",
+			"fromSide":"top",
+			"toNode":"b716e2874777f205",
+			"toSide":"bottom",
 			"color":"#000000"
 		}
 	],

@@ -24,6 +24,9 @@ _(Required for both Front-end and Back-end tracks)_
 	#roadmap #material
 3. [JavaScript Bootcamp Assignments - Elzero Web School](https://elzero.org/category/assignments/javascript-bootcamp-assignments/)
 	#assignments  #material
+4. [JavaScript Bootcamp Extra Assignments - Elzero Web School](https://elzero.org/javascript-bootcamp-assignments-lesson-from-1-to-188/)
+	#assignments  #material 
+
 ---
 ### 03 - Git & GitHub
 

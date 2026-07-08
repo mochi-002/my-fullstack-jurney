@@ -1,49 +1,5 @@
 {
 	"nodes":[
-		{"id":"2bf43e7727812deb","type":"text","text":"what is domain name?","x":116,"y":-1130,"width":258,"height":77,"color":"6"},
-		{"id":"652b1c8b9a3d2451","type":"text","text":"what is hosting?","x":136,"y":-1028,"width":198,"height":68,"color":"6"},
-		{"id":"f896015aede0cc6b","type":"text","text":"Browsers and how they work?","x":94,"y":-950,"width":340,"height":70,"color":"6"},
-		{
-			"id":"7926833ef898710e",
-			"type":"text",
-			"text":"#    Start",
-			"styleAttributes":{},
-			"x":-207,
-			"y":-1480,
-			"width":158,
-			"height":60,
-			"color":"1"
-		},
-		{"id":"bd2d51aaaba6cc86","type":"file","file":"020_Notes/tracks/Fullstack/02-Backend/02-JavaScript/02-JavaScript.md","x":-900,"y":-860,"width":280,"height":60,"color":"3"},
-		{"id":"555199321efea236","type":"file","file":"020_Notes/tracks/Fullstack/02-Backend/02-JavaScript/02-JavaScript Assignments.md","x":-1150,"y":-960,"width":500,"height":60,"color":"3"},
-		{"id":"d7773241260a661c","type":"file","file":"020_Notes/tracks/Fullstack/02-Backend/01-Web-Basics/01-Internet.md","x":-240,"y":-1083,"width":232,"height":60,"color":"4"},
-		{"id":"a58cb830adb47445","type":"file","file":"020_Notes/tracks/Fullstack/01-Frontend/01-Web-Basics/01-Internet.md","x":520,"y":-1130,"width":240,"height":108,"color":"6"},
-		{
-			"id":"0b701612f4b5ea34",
-			"type":"text",
-			"text":"# 02-Pick a Backend Language",
-			"styleAttributes":{},
-			"x":-500,
-			"y":-860,
-			"width":520,
-			"height":60,
-			"color":"3"
-		},
-		{"id":"aad420f56dec897d","type":"text","text":"DNS and how it works?","x":116,"y":-860,"width":298,"height":60,"color":"6"},
-		{"id":"2749b8a7fb92588c","type":"text","text":"How does the internet work?","x":94,"y":-1300,"width":320,"height":70,"color":"6"},
-		{"id":"a07c4b8d4b4a6645","type":"text","text":"what is http?","x":136,"y":-1220,"width":181,"height":80,"color":"6"},
-		{
-			"id":"f99bac9165d83576",
-			"type":"text",
-			"text":"# 03-Version Control Systems \n# 04-Repo Hosting Services ",
-			"styleAttributes":{},
-			"x":-620,
-			"y":-680,
-			"width":540,
-			"height":120,
-			"color":"4"
-		},
-		{"id":"75d1db62cb089e8f","type":"file","file":"020_Notes/tracks/Fullstack/02-Backend/03-Version-Control-and-RHS/03-VCS & RHS.md","x":-1000,"y":-680,"width":280,"height":60,"color":"6"},
 		{
 			"id":"9aada2d94c541301",
 			"type":"file",
@@ -65,7 +21,52 @@
 			"width":606,
 			"height":1312,
 			"color":"1"
-		}
+		},
+		{"id":"2bf43e7727812deb","type":"text","text":"what is domain name?","x":336,"y":-915,"width":258,"height":77,"color":"6"},
+		{"id":"aad420f56dec897d","type":"text","text":"DNS and how it works?","x":336,"y":-645,"width":298,"height":60,"color":"6"},
+		{"id":"a07c4b8d4b4a6645","type":"text","text":"what is http?","x":356,"y":-1005,"width":181,"height":80,"color":"6"},
+		{"id":"652b1c8b9a3d2451","type":"text","text":"what is hosting?","x":356,"y":-813,"width":198,"height":68,"color":"6"},
+		{"id":"a58cb830adb47445","type":"file","file":"020_Notes/tracks/Fullstack/02-Backend/01-Web-Basics/Internet.md","x":740,"y":-915,"width":240,"height":60,"color":"6"},
+		{
+			"id":"f99bac9165d83576",
+			"type":"text",
+			"text":"# 03-Version Control Systems \n# 04-Repo Hosting Services ",
+			"styleAttributes":{},
+			"x":-400,
+			"y":-465,
+			"width":540,
+			"height":120,
+			"color":"4"
+		},
+		{
+			"id":"0b701612f4b5ea34",
+			"type":"text",
+			"text":"# 02-Pick a Backend Language",
+			"styleAttributes":{},
+			"x":-280,
+			"y":-645,
+			"width":520,
+			"height":60,
+			"color":"4"
+		},
+		{"id":"d7773241260a661c","type":"file","file":"020_Notes/tracks/Fullstack/02-Backend/01-Web-Basics/Internet.md","x":-20,"y":-868,"width":232,"height":60,"color":"4"},
+		{
+			"id":"7926833ef898710e",
+			"type":"text",
+			"text":"#    Start",
+			"styleAttributes":{},
+			"x":13,
+			"y":-1265,
+			"width":158,
+			"height":60,
+			"color":"1"
+		},
+		{"id":"2749b8a7fb92588c","type":"text","text":"How does the internet work?","x":314,"y":-1085,"width":320,"height":70,"color":"6"},
+		{"id":"f896015aede0cc6b","type":"text","text":"Browsers and how they work?","x":314,"y":-735,"width":340,"height":70,"color":"6"},
+		{"id":"555199321efea236","type":"file","file":"020_Notes/tracks/Fullstack/02-Backend/02-JavaScript/01.1-JavaScript Assignments.md","x":-930,"y":-745,"width":500,"height":60,"color":"6"},
+		{"id":"75d1db62cb089e8f","type":"file","file":"020_Notes/tracks/Fullstack/02-Backend/03-Version-Control-ans-RHS/03-VCS & RHS.md","x":-780,"y":-465,"width":280,"height":60,"color":"6"},
+		{"id":"bd2d51aaaba6cc86","type":"file","file":"020_Notes/tracks/Fullstack/02-Backend/02-JavaScript/01.0-JavaScript.md","x":-720,"y":-645,"width":320,"height":60,"color":"6"},
+		{"id":"70559e4fcd2be68d","type":"file","file":"020_Notes/tracks/Fullstack/02-Backend/02-JavaScript/01.2-JavaScript Extra Assignments.md","x":-1300,"y":-855,"width":580,"height":60,"color":"6"}
 	],
 	"edges":[
 		{
@@ -258,6 +259,16 @@
 			"fromNode":"f99bac9165d83576",
 			"fromSide":"left",
 			"toNode":"75d1db62cb089e8f",
+			"toSide":"right",
+			"color":"#000000"
+		},
+		{
+			"id":"88ea5203d893a7f2",
+			"styleAttributes":{"path":"long-dashed","arrow":"triangle-outline"},
+			"toFloating":false,
+			"fromNode":"555199321efea236",
+			"fromSide":"top",
+			"toNode":"70559e4fcd2be68d",
 			"toSide":"right",
 			"color":"#000000"
 		}
