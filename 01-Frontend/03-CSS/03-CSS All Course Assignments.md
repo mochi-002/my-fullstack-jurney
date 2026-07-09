@@ -44,7 +44,7 @@ body {
 }
 ```
 
-<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/assignment1.png" alt="Assignment 1 final result" style="height:auto;"> </div>
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="extra-assignments-media/assignment1.png" alt="Assignment 1 final result" style="height:auto;"> </div>
 
 ---
 
@@ -74,7 +74,7 @@ body {
 }
 ```
 
-<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/assignment3.png" alt="Assignment 3 final result" style="height:auto;"> </div>
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="extra-assignments-media/assignment3.png" alt="Assignment 3 final result" style="height:auto;"> </div>
 
 ---
 
@@ -133,7 +133,7 @@ body {
 }
 ```
 
-<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/assignment4.png" alt="Assignment 4 final result" style="height:auto;"> </div>
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="extra-assignments-media/assignment4.png" alt="Assignment 4 final result" style="height:auto;"> </div>
 
 ---
 
@@ -199,7 +199,7 @@ body {
 }
 ```
 
-<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/assignment5-no-hover.png" alt="Assignment 5 before hover" style="max-width:48%; height:auto;"> <img src="assignments-media/assignment5-with-hover.png" alt="Assignment 5 after hover" style="max-width:48%; height:auto;"> </div>
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="extra-assignments-media/assignment5-no-hover.png" alt="Assignment 5 before hover" style="max-width:48%; height:auto;"> <img src="extra-assignments-media/assignment5-with-hover.png" alt="Assignment 5 after hover" style="max-width:48%; height:auto;"> </div>
 
 ---
 
@@ -224,19 +224,126 @@ a:not([class]) {
 }
 ```
 
-<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/assignment6.png" alt="Assignment 6 final result" style="height:auto;"> </div>
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="extra-assignments-media/assignment6.png" alt="Assignment 6 final result" style="height:auto;"> </div>
 
 ---
 
 ## Assignment 7
 
 ```html
+<ul>
+  <li>List item</li>
+  <li>List item</li>
+  <li>List item</li>
+  <li>
+    List item
+    <ul>
+      <li>Sub List item</li>
+      <li>Sub List item</li>
+      <li>Sub List item</li>
+    </ul>
+  </li>
+</ul>
 ```
 
 ```css
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: #eee;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 800px;
+}
+
+ul {
+    counter-reset: item;
+}
+
+ul>li {
+    counter-increment: item;
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 4px;
+}
+
+ul>li::before {
+    content: counter(item);
+    flex-shrink: 0;
+    width: 50px;
+    height: 50px;
+    background-color: #ddd;
+    color: #000;
+    font-weight: bold;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    border-radius: 4px;
+}
+
+ul>li:has(> ul) {
+    flex-wrap: wrap;
+    align-content: flex-start;
+    background: #ddd;
+}
+
+ul>li:has(> ul)::before {
+    background-color: #fff;
+    margin-right: 30px;
+}
+
+ul>li>ul {
+    counter-reset: subitem;
+    width: 100%;
+    margin-top: 10px;
+    /* flex-basis: 100%; */
+}
+
+ul>li>ul>li {
+    counter-increment: subitem;
+    background-color: #fff;
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 4px;
+}
+
+ul>li>ul>li::before {
+    content: counter(item) "." counter(subitem);
+    flex-shrink: 0;
+    min-width: 50px;
+    height: 50px;
+    background: #009688;
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    border-radius: 4px;
+}
 ```
 
-<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/assignment7.png" alt="Assignment 7 final result" style="height:auto;"> </div>
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="extra-assignments-media/assignment7.png" alt="Assignment 7 final result" style="height:auto;"> </div>
 
 ---
 
@@ -268,7 +375,7 @@ a::before {
 }
 ```
 
-<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/assignment8.png" alt="Assignment 8 final result" style="height:auto;"> </div>
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="extra-assignments-media/assignment8.png" alt="Assignment 8 final result" style="height:auto;"> </div>
 
 ---
 
@@ -294,7 +401,7 @@ a::before {
 }
 ```
 
-<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/assignment9.png" alt="Assignment 9 final result" style="height:auto;"> </div>
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="extra-assignments-media/assignment9.png" alt="Assignment 9 final result" style="height:auto;"> </div>
 
 ---
 
@@ -397,7 +504,7 @@ body {
 }
 ```
 
-<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/assignment10.png" alt="Assignment 10 final result" style="height:auto;"> </div>
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="extra-assignments-media/assignment10.png" alt="Assignment 10 final result" style="height:auto;"> </div>
 
 ---
 
@@ -473,9 +580,9 @@ td:hover {
 }
 ```
 
-<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/assignment11-no-hover.png" alt="Assignment 11 final result"
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="extra-assignments-media/assignment11-no-hover.png" alt="Assignment 11 final result"
 style="height:auto;">
-<img src="assignments-media/assignment11-with-hover.png" alt="Assignment 11 final result"
+<img src="extra-assignments-media/assignment11-with-hover.png" alt="Assignment 11 final result"
 style="height:auto;">
 </div>
 
@@ -484,48 +591,573 @@ style="height:auto;">
 ## Assignment 12
 
 ```html
+<div class="plans">
+  <div class="plan">
+    <h2>Personal</h2>
+
+    <div class="price">
+      <span class="currency">$</span>
+      <span class="number">10</span>
+      <span class="time">/ Mo</span>
+    </div>
+
+    <ul>
+      <li><strong>Free</strong> Weekly Meeting</li>
+      <li><strong>1x</strong> Monthly Call</li>
+      <li><strong>Unlimited</strong> Messenger Chats</li>
+      <li><strong>Free</strong> Control Panel Access</li>
+      <li><strong>1x</strong> Face to Face Meeting</li>
+    </ul>
+
+    <button>Buy Now</button>
+  </div>
+
+  <div class="plan popular">
+    <span class="label">Most Popular</span>
+
+    <h2>Business</h2>
+
+    <div class="price">
+      <span class="currency">$</span>
+      <span class="number">15</span>
+      <span class="time">/ Mo</span>
+    </div>
+
+    <ul>
+      <li><strong>Free</strong> Weekly Meeting</li>
+      <li><strong>2x</strong> Monthly Call</li>
+      <li><strong>Unlimited</strong> Messenger Chats</li>
+      <li><strong>Free</strong> Control Panel Access</li>
+      <li><strong>2x</strong> Face to Face Meeting</li>
+    </ul>
+
+    <button>Buy Now</button>
+  </div>
+
+  <div class="plan">
+    <h2>Enterprise</h2>
+
+    <div class="price">
+      <span class="currency">$</span>
+      <span class="number">20</span>
+      <span class="time">/ Mo</span>
+    </div>
+
+    <ul>
+      <li><strong>Free</strong> Daily Meeting</li>
+      <li><strong>3x</strong> Monthly Call</li>
+      <li><strong>Unlimited</strong> Messenger Chats</li>
+      <li><strong>Free</strong> Control Panel Access</li>
+      <li><strong>3x</strong> Face to Face Meeting</li>
+    </ul>
+
+    <button>Buy Now</button>
+  </div>
+</div>
 ```
 
 ```css
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.plans {
+    margin: 40px auto;
+    display: flex;
+    gap: 40px;
+}
+
+
+.plan {
+    flex: 1;
+    background: white;
+    border: 1px solid #ddd;
+    padding: 50px 60px;
+    text-align: center;
+    position: relative;
+}
+
+.plan h2 {
+    font-size: 30px;
+    margin: -20px 0px 20px;
+}
+
+.price {
+    margin-bottom: 40px;
+}
+
+
+.currency {
+    color: #1976f2;
+    font-size: 20px;
+    vertical-align: top;
+}
+
+.number {
+    color: #1976f2;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.time {
+    color: #777;
+    font-size: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    color: #777;
+    margin: 22px 0;
+}
+
+button {
+    margin-top: 35px;
+    border: none;
+    border-radius: 30px;
+    padding: 20px 25px;
+    background: #1976f2;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.label {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 250px;
+    padding: 10px 0;
+    background: #1976f2;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.label::before,
+.label::after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    border-style: solid;
+}
+
+.label::before {
+    left: -20px;
+    border-width: 10px;
+    border-color: transparent #0e56b5 #0e56b5 transparent;
+}
+
+.label::after {
+    right: -20px;
+    border-width: 10px;
+    border-color: transparent transparent #0e56b5 #0e56b5;
+}
 ```
 
-<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/assignment12.png" alt="Assignment 12 final result" style="height:auto;"> </div>
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="extra-assignments-media/assignment12.png" alt="Assignment 12 final result" style="height:auto;"> </div>
 
 ---
 
 ## Assignment 13
 
 ```html
+<div class="cards">
+  <div class="card active">
+    <span class="dot"></span>
+
+    <h3>Standard</h3>
+
+    <div class="storage">
+      <span class="big">1</span>
+      <span class="tb">TB</span>
+      <span class="gb">(1000gb)</span>
+    </div>
+
+    <p><strong>$40</strong>/month</p>
+  </div>
+
+
+  <div class="card">
+    <span class="dot"></span>
+
+    <h3>Pro</h3>
+
+    <div class="storage">
+      <span class="big">2</span>
+      <span class="tb">TB</span>
+      <span class="gb">(2000gb)</span>
+    </div>
+
+    <p><strong>$70</strong>/month</p>
+  </div>
+
+  <div class="card">
+    <span class="dot"></span>
+
+    <h3>Ultimate</h3>
+
+    <div class="storage">
+      <span class="big">5</span>
+      <span class="tb">TB</span>
+      <span class="gb">(5000gb)</span>
+    </div>
+
+    <p><strong>$100</strong>/month</p>
+  </div>
+</div>
 ```
 
 ```css
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+}
+
+.cards {
+    width: 90vw;
+    margin: 40px auto;
+    display: flex;
+    gap: 30px;
+}
+
+.card {
+    flex: 1;
+    background: white;
+    border-radius: 14px;
+    padding: 10px 28px;
+    position: relative;
+    transition: all .3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .15);
+}
+
+.card.active {
+    border: 2px solid #2f6df6;
+}
+
+.dot {
+    position: absolute;
+    right: 28px;
+    top: 30px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #a19f9f;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .45);
+}
+
+.card.active .dot {
+    background-color: #2f6df6;
+}
+
+h3 {
+    color: #555;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.big {
+    font-size: 60px;
+    font-weight: bold;
+    color: #555;
+}
+
+.tb {
+    font-size: 30px;
+    color: #555;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.gb {
+    color: #777;
+    font-size: 20px;
+}
+
+p {
+    margin-top: 15px;
+    color: #777;
+    font-size: 18px;
+}
+
+p strong {
+    color: #555;
+    font-size: 24px;
+}
 ```
 
-<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/assignment13.png" alt="Assignment 13 final result" style="height:auto;"> </div>
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="extra-assignments-media/assignment13.png" alt="Assignment 13 final result" style="height:auto;"> </div>
 
 ---
 
 ## Assignment 14
 
 ```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div style="display: flex; align-items: center; justify-content: center; width: fit-content; height:fit-content;">
+        <div class="camera">
+            <div class="btn"></div>
+            <div class="bump">
+                <div class="bump-window"></div>
+            </div>
+            <div class="body">
+                <div class="lens">
+                    <div class="lens-ring">
+                        <div class="lens-glass"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
 ```
 
 ```css
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    background: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.camera {
+    position: relative;
+    width: 600px;
+    height: 400px;
+}
+
+.body {
+    position: absolute;
+    inset: 0;
+    background-color: #cccccc;
+    border-radius: 18px;
+    overflow: hidden;
+}
+
+.body::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background: #607c8a;
+}
+
+.bump {
+    position: relative;
+    width: 100px;
+    height: 65px;
+    top: -55px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #607c8a;
+}
+
+.bump::after,
+.bump::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    background-color: #607c8a;
+    border-radius: 10px 10px 0 0;
+    z-index: -1;
+}
+
+.bump::before {
+    left: 50%;
+    width: 80px;
+    height: 65px;
+    transform: skewX(30deg);
+}
+
+
+.bump::after {
+    right: 50%;
+    width: 80px;
+    height: 65px;
+    transform: skewX(-30deg);
+}
+
+.bump-window {
+    position: absolute;
+    top: 18px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 26px;
+    background: #cfd1d0;
+    border-radius: 10px;
+}
+
+.bump-window::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    height: 13px;
+    background: #607c8a;
+    border-radius: 3px;
+}
+
+.btn {
+    position: absolute;
+    top: -15px;
+    left: 30px;
+    width: 80px;
+    height: 16px;
+    background: #607c8a;
+    border-radius: 15px 15px 6px 6px;
+    z-index: 1;
+}
+
+.btn::before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 5px;
+    background: #d81159;
+    border-radius: 20px 20px 6px 6px;
+}
+
+.lens {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 280px;
+    height: 280px;
+    background: #f4f4f4;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 19px rgba(0, 0, 0, 0.697);
+}
+
+.lens-ring {
+    width: 210px;
+    height: 210px;
+    background: #3a3c3d;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.lens-ring::before {
+    content: "";
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background: #cecece;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+}
+
+.lens-glass {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background: radial-gradient(circle at 40% 35%, #5da9cf, #2f7fa8 70%);
+    border-radius: 50%;
+}
+
+.lens-glass::after {
+    content: "";
+    position: absolute;
+    top: 22px;
+    left: 26px;
+    width: 30px;
+    height: 30px;
+    background: #7fc3e0;
+    border-radius: 50%;
+    opacity: 0.85;
+}
 ```
 
-<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/assignment14.png" alt="Assignment 14 final result" style="height:auto;"> </div>
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="extra-assignments-media/assignment14.png" alt="Assignment 14 final result" style="height:auto;"> </div>
 
 ---
 
 ## Assignment 15
 
 ```html
+<h2>Elzero Web School</h2>
 ```
 
 ```css
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 90px;
+    color: transparent;
+    -webkit-text-stroke: 4px #9c27b0;
+    letter-spacing: 2px;
+}
 ```
 
-<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/assignment15.png" alt="Assignment 15 final result" style="height:auto;"> </div>
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="extra-assignments-media/assignment15.png" alt="Assignment 15 final result" style="height:auto;"> </div>
 
 ---
 
@@ -591,7 +1223,7 @@ tfoot td:not(:first-child) {
 }
 ```
 
-<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/assignment16.png" alt="Assignment 16 final result" style="height:auto;"> </div>
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="extra-assignments-media/assignment16.png" alt="Assignment 16 final result" style="height:auto;"> </div>
 
 ---
 
@@ -620,7 +1252,7 @@ div {
 }
 ```
 
-<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/assignment17.png" alt="Assignment 17 final result" style="height:auto;"> </div>
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="extra-assignments-media/assignment17.png" alt="Assignment 17 final result" style="height:auto;"> </div>
 
 ---
 
@@ -696,7 +1328,7 @@ ul li:nth-child(even)::before {
 }
 ```
 
-<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/assignment18.png" alt="Assignment 18 final result" style="height:auto;"> </div>
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="extra-assignments-media/assignment18.png" alt="Assignment 18 final result" style="height:auto;"> </div>
 
 ---
 
@@ -731,7 +1363,7 @@ div {
 }
 ```
 
-<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/assignment19.png" alt="Assignment 19 final result" style="height:auto;"> </div>
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="extra-assignments-media/assignment19.png" alt="Assignment 19 final result" style="height:auto;"> </div>
 
 ---
 
@@ -785,7 +1417,7 @@ h1::after {
 }
 ```
 
-<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/assignment20.png" alt="Assignment 20 final result" style="height:auto;"> </div>
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="extra-assignments-media/assignment20.png" alt="Assignment 20 final result" style="height:auto;"> </div>
 
 ---
 
@@ -898,7 +1530,7 @@ body {
 }
 ```
 
-<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/assignment22.png" alt="Assignment 22 final result" style="height:auto;"> </div>
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="extra-assignments-media/assignment22.png" alt="Assignment 22 final result" style="height:auto;"> </div>
 
 ---
 
@@ -995,19 +1627,138 @@ body {
 .the-grid div:nth-child(20) { grid-area: g20; }
 ```
 
-<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/assignment23.png" alt="Assignment 23 final result" style="height:auto;"> </div>
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="extra-assignments-media/assignment23.png" alt="Assignment 23 final result" style="height:auto;"> </div>
 
 ---
 
 ## Assignment 24
 
 ```html
+<div class="our-skills">
+        <div class="prog-holder">
+            <h4>Money</h4>
+            <h5>$20.000</h5>
+            <div class="prog">
+                <span style="width: 80%" data-progress="80%"></span>
+            </div>
+        </div>
+        <div class="prog-holder">
+            <h4>Projects</h4>
+            <h5>24</h5>
+            <div class="prog">
+                <span style="width: 55%" data-progress="55%"></span>
+            </div>
+        </div>
+        <div class="prog-holder">
+            <h4>Team</h4>
+            <h5>12</h5>
+            <div class="prog">
+                <span style="width: 75%" data-progress="75%"></span>
+            </div>
+        </div>
+    </div>
 ```
 
 ```css
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.our-skills {
+    background: #fff;
+    border-radius: 16px;
+    padding: 20px 32px;
+    width: 900px;
+    max-width: 90vw;
+}
+
+.our-skills .prog-holder:nth-of-type(1) {
+    --main-color: #1976f2;
+}
+
+.our-skills .prog-holder:nth-of-type(2) {
+    --main-color: #f2a71b;
+}
+
+.our-skills .prog-holder:nth-of-type(3) {
+    --main-color: #22a35d;
+}
+
+.our-skills .prog-holder {
+    margin-bottom: 40px;
+}
+
+.our-skills .prog-holder:last-child {
+    margin-bottom: 20px;
+}
+
+.our-skills .prog-holder h4 {
+    font-weight: 400;
+    font-size: 15px;
+    color: #9a9a9a;
+    text-transform: capitalize;
+}
+
+.our-skills .prog-holder h5 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #1a1a1a;
+}
+
+.our-skills .prog-holder .prog {
+    background-color: #e9e9ec;
+    height: 6px;
+    border-radius: 999px;
+}
+
+.our-skills .prog-holder .prog span {
+    display: block;
+    background-color: var(--main-color);
+    height: 6px;
+    border-radius: 999px;
+    position: relative;
+}
+
+.our-skills .prog-holder .prog span::before {
+    content: attr(data-progress);
+    position: absolute;
+    background-color: var(--main-color);
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+    top: -33px;
+    right: 0;
+    transform: translateX(50%);
+    padding: 6px 10px;
+    border-radius: 6px;
+    white-space: nowrap;
+}
+
+.our-skills .prog-holder .prog span::after {
+    content: "";
+    position: absolute;
+    border-style: solid;
+    border-width: 6px 6px 0 6px;
+    border-color: var(--main-color) transparent transparent transparent;
+    right: 0;
+    top: -6px;
+    transform: translateX(50%);
+}
 ```
 
-<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/assignment24.png" alt="Assignment 24 final result" style="height:auto;"> </div>
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="extra-assignments-media/assignment24.png" alt="Assignment 24 final result" style="height:auto;"> </div>
 
 ---
 
@@ -1159,4 +1910,4 @@ body {
 }
 ```
 
-<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/assignment25.png" alt="Assignment 25 final result" style="height:auto;"> </div>
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="extra-assignments-media/assignment25.png" alt="Assignment 25 final result" style="height:auto;"> </div>

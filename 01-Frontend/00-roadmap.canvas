@@ -87,7 +87,6 @@
 			"color":"4"
 		},
 		{"id":"886e45403c28086f","type":"file","file":"020_Notes/tracks/Fullstack/01-Frontend/06-Workflow-and-Tooling/02.1-Package Managers - Example.md","x":635,"y":870,"width":560,"height":210,"color":"6"},
-		{"id":"05c793239ab4528c","type":"file","file":"020_Notes/tracks/Fullstack/01-Frontend/03-CSS/01-CSS.md","x":112,"y":-368,"width":400,"height":318,"color":"6"},
 		{
 			"id":"72429c2a56b1fb68",
 			"type":"text",
@@ -99,7 +98,6 @@
 			"height":60,
 			"color":"4"
 		},
-		{"id":"4a50fdead159d6ec","type":"file","file":"020_Notes/tracks/Fullstack/01-Frontend/03-CSS/02-CSS Assignments.md","x":435,"y":110,"width":400,"height":60,"color":"6"},
 		{
 			"id":"7f7bfbd3842b8f54",
 			"type":"text",
@@ -111,13 +109,15 @@
 			"height":60,
 			"color":"4"
 		},
-		{"id":"e6e35bec5b4f3311","type":"file","file":"020_Notes/tracks/Fullstack/01-Frontend/03-CSS/03-CSS All Course Assignments.md","x":635,"y":-110,"width":468,"height":80,"color":"3"},
 		{"id":"940a589bb8527513","type":"file","file":"020_Notes/tracks/Fullstack/01-Frontend/05-JavaScript/JavaScript Assignments.md","x":-1224,"y":110,"width":514,"height":60,"color":"6"},
 		{"id":"7241fbc69c767430","type":"file","file":"020_Notes/tracks/Fullstack/01-Frontend/05-JavaScript/JavaScript.md","x":-916,"y":238,"width":412,"height":60,"color":"6"},
 		{"id":"0fdf2afc2a740a13","type":"file","file":"020_Notes/tracks/Fullstack/01-Frontend/06-Workflow-and-Tooling/01-Git & GitHub.md","x":-774,"y":382,"width":466,"height":254,"color":"6"},
 		{"id":"5e9718ee1ea9131d","type":"file","file":"020_Notes/tracks/Fullstack/01-Frontend/02-HTML/HTML.md","x":-1080,"y":-317,"width":412,"height":60,"color":"6"},
-		{"id":"b716e2874777f205","type":"file","file":"020_Notes/tracks/Fullstack/01-Frontend/03-CSS/04-CSS Advanced Topics.md","x":835,"y":-329,"width":565,"height":72,"color":"1"},
-		{"id":"5b5088cbd635a3f9","type":"file","file":"020_Notes/tracks/Fullstack/01-Frontend/04-Milestone-Static-Pages/4 Static Web Pages Implementation.md","x":-641,"y":-18,"width":692,"height":60,"color":"3"}
+		{"id":"5b5088cbd635a3f9","type":"file","file":"020_Notes/tracks/Fullstack/01-Frontend/04-Milestone-Static-Pages/4 Static Web Pages Implementation.md","x":-641,"y":-18,"width":692,"height":60,"color":"3"},
+		{"id":"4a50fdead159d6ec","type":"file","file":"020_Notes/tracks/Fullstack/01-Frontend/03-CSS/02-CSS Assignments.md","x":840,"y":-320,"width":400,"height":790,"color":"6"},
+		{"id":"05c793239ab4528c","type":"file","file":"020_Notes/tracks/Fullstack/01-Frontend/03-CSS/01-CSS.md","x":221,"y":-320,"width":400,"height":318,"color":"6"},
+		{"id":"b716e2874777f205","type":"file","file":"020_Notes/tracks/Fullstack/01-Frontend/03-CSS/04-CSS Advanced Topics.md","x":111,"y":75,"width":565,"height":72,"color":"1"},
+		{"id":"e6e35bec5b4f3311","type":"file","file":"020_Notes/tracks/Fullstack/01-Frontend/03-CSS/03-CSS All Course Assignments.md","x":247,"y":233,"width":483,"height":70,"color":"6"}
 	],
 	"edges":[
 		{
@@ -175,19 +175,20 @@
 			"toFloating":false,
 			"fromFloating":false,
 			"fromNode":"05c793239ab4528c",
-			"fromSide":"bottom",
+			"fromSide":"top",
 			"toNode":"4a50fdead159d6ec",
-			"toSide":"left",
+			"toSide":"top",
 			"color":"#000000"
 		},
 		{
 			"id":"0af1e5bbbf41dbac",
 			"styleAttributes":{"path":"short-dashed","arrow":"triangle-outline"},
 			"toFloating":false,
+			"fromFloating":false,
 			"fromNode":"4a50fdead159d6ec",
-			"fromSide":"right",
+			"fromSide":"left",
 			"toNode":"e6e35bec5b4f3311",
-			"toSide":"bottom",
+			"toSide":"right",
 			"color":"#000000"
 		},
 		{
