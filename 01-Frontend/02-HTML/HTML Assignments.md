@@ -1,4 +1,5 @@
 # Assignments
+
 - [Elements And Comments](https://elzero.org/html-assignments-lesson-from-1-to-5/) -> 4 **Assignments**
 - [Heading And Attributes](https://elzero.org/html-assignments-lesson-from-6-to-10/) -> 7 **Assignments**
 - [Link, Image, List](https://elzero.org/html-assignments-lesson-from-11-to-14/) -> 4 **Assignments**
@@ -8,14 +9,21 @@
 - [Form Part Two](https://elzero.org/html-assignments-lesson-from-28-to-30/) -> 3 **Assignments**
 - [Form Part Three](https://elzero.org/html-assignments-lesson-from-31-to-34/) -> 4 **Assignments**
 - [iFrame, ARIA](https://elzero.org/html-assignments-lesson-from-35-to-37/) -> 2 **Assignments**
+
 # Assignments Solution
+
 ## Elements and Comments
+
 ### Assignment no.1
+
 ```html
 <!-- HTML = Hyper Text Markup Language -->
 ```
+
 ---
+
 ### Assignment no.2
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -36,13 +44,21 @@
 </body>
 </html>
 ```
+
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/html-assignments-lessons-1-5-2.png" alt="final result" style="height:auto;"> </div>
+
 ---
+
 ### Assignment no.3
+
 ```html
 <!-- No, Yes, No, No -->
 ```
+
 ---
+
 ### Assignment no.4
+
 ```html
 <!--
 Meta Tags
@@ -56,9 +72,13 @@ Meta Tags
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="author" content="Potato">
 ```
+
 ---
+
 ## Heading and Attributes
+
 ### Assignment no.1
+
 ```html
 <!-- Type Question 1 Answer Below -->
 <!DOCTYPE html>
@@ -75,23 +95,35 @@ Nope
 <!-- Type Question 5 Answer Below -->
 Heading Formats
 ```
+
 ---
+
 ### Assignment no.2
+
 ```html
 <!-- Nope -->
 ```
+
 ---
+
 ### Assignment no.3
+
 ```html
 <!-- Nope -->
 ```
+
 ---
+
 ### Assignment no.4
+
 ```html
 <!-- Yes -->
 ```
+
 ---
+
 ### Assignment no.5
+
 ```html
 <!--
 title     - Global
@@ -104,8 +136,11 @@ id        - Global
 type
 -->
 ```
+
 ---
+
 ### Assignment no.6
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -151,8 +186,13 @@ type
 </body>
 </html>
 ```
+
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/html-assignments-lessons-6-10-6.png" alt="final result" style="height:auto;"> </div>
+
 ---
+
 ### Assignment no.7
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -172,9 +212,15 @@ type
 </body>
 </html>
 ```
+
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/html-assignments-lessons-6-10-7.png" alt="final result" style="height:auto;"> </div>
+
 ---
+
 ## Link, Image, List
+
 ### Assignment no.1
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -235,8 +281,13 @@ type
 </body>
 </html>
 ```
+
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/html-assignments-lessons-11-14-1.png" alt="final result" style="height:auto;"> </div>
+
 ---
+
 ### Assignment no.2
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -271,13 +322,21 @@ type
 </body>
 </html>
 ```
+
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/html-assignments-11-14-1.png" alt="final result" style="height:auto;"> </div>
+
 ---
+
 ### Assignment no.3
+
 ```html
 <!-- كسلت اعمله -->
 ```
+
 ---
+
 ### Assignment no.4
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -299,7 +358,11 @@ type
 </body>
 </html>
 ```
+
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/html-assignments-11-14-2.png" alt="final result" style="height:auto;"> </div>
+
 ---
+
 ## Table, Div
 
 ### Assignment no.1
@@ -364,6 +427,8 @@ type
 </table>
 ```
 
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/html-assignments-lessons-15-18-1.png" alt="final result" style="height:auto;"> </div>
+
 ---
 
 ### Assignment no.2
@@ -404,6 +469,8 @@ type
   </tbody>
 </table>
 ```
+
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/html-assignments-lessons-15-18-2.png" alt="final result" style="height:auto;"> </div>
 
 ---
 
@@ -456,6 +523,8 @@ type
   </tbody>
 </table>
 ```
+
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/html-assignments-lessons-15-18-3.png" alt="final result" style="height:auto;"> </div>
 
 ---
 
@@ -559,6 +628,8 @@ type
 </body>
 ```
 
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/html-assignments-lessons-19-23-2.png" alt="final result" style="height:auto;"> </div>
+
 ---
 
 ### Assignment no.3
@@ -570,6 +641,8 @@ type
   Your browser does not support the audio element.
 </audio>
 ```
+
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/html-assignments-lessons-19-23-3.png" alt="final result" style="height:auto;"> </div>
 
 ---
 
@@ -583,6 +656,9 @@ type
   Video not supported.
 </video>
 ```
+
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/html-assignments-lessons-19-23-4.png" alt="final result" style="height:auto;"> </div>
+
 ---
 
 ## Form Part 1
@@ -656,6 +732,8 @@ type
 </form>
 ```
 
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/html-assignments-lessons-24-27-1.png" alt="final result" style="height:auto;"> </div>
+
 ---
 
 ### Assignment no.2
@@ -670,6 +748,8 @@ type
   step="50"
 >
 ```
+
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/html-assignments-24-27.gif" alt="final result" style="height:auto;"> </div>
 
 ---
 
@@ -711,6 +791,8 @@ type
   <button type="submit">Send</button>
 </form>
 ```
+
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/html-assignments-lessons-28-30-1.png" alt="final result" style="height:auto;"> </div>
 
 ---
 
@@ -861,6 +943,8 @@ type
   <button type="submit">Send</button>
 </form>
 ```
+
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/html-assignments-lessons-28-30-2.png" alt="final result" style="height:auto;"> </div>
 
 ---
 
@@ -1039,6 +1123,8 @@ type
 </form>
 ```
 
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/html-assignments-lessons-28-30-3.png" alt="final result" style="height:auto;"> </div>
+
 ---
 
 ## Form Part 3
@@ -1099,6 +1185,8 @@ type
 </form>
 ```
 
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/html-assignments-lessons-31-34-1.png" alt="final result" style="height:auto;"> </div>
+
 ---
 
 ### Assignment no.2
@@ -1127,6 +1215,8 @@ type
 </div>
 ```
 
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/html-assignments-lessons-31-34-2.png" alt="final result" style="height:auto;"> </div>
+
 ---
 
 ### Assignment no.3
@@ -1138,6 +1228,8 @@ type
 
 <pre>Hello Line Four</pre>
 ```
+
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/html-assignments-lessons-31-34-3.png" alt="final result" style="height:auto;"> </div>
 
 ---
 
@@ -1151,6 +1243,8 @@ type
   height="400px"
 ></iframe>
 ```
+
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/html-assignments-lessons-31-34-4.png" alt="final result" style="height:auto;"> </div>
 
 ---
 

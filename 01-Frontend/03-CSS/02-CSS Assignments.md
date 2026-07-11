@@ -1,34 +1,35 @@
 # Assignments List
 
-| Section                                                                                     | Lessons | Assignments |
-| ------------------------------------------------------------------------------------------- | ------- | ----------- |
-| [Elements And Naming](https://elzero.org/css-assignments-lesson-from-1-to-4/)               | 1 → 4   | 6           |
-| [Background, Margin, Padding](https://elzero.org/css-assignments-lesson-from-5-to-8/)       | 5 → 8   | 4           |
-| [Border, Outline, Display](https://elzero.org/css-assignments-lesson-from-9-to-12/)         | 9 → 12  | 2           |
-| [Nesting, Dimensions, Overflow](https://elzero.org/css-assignments-lesson-from-13-to-16/)   | 13 → 16 | 2           |
-| [Text Formatting](https://elzero.org/css-assignments-lesson-from-17-to-21/)                 | 17 → 21 | 4           |
-| [Inheritance, Typography](https://elzero.org/css-assignments-lesson-from-22-to-26/)         | 22 → 26 | 3           |
-| [Float, Opacity](https://elzero.org/css-assignments-lesson-from-27-to-29/)                  | 27 → 29 | 2           |
-| [Position, List, Table](https://elzero.org/css-assignments-lesson-from-30-to-33/)           | 30 → 33 | 4           |
-| [Pseudo Classes, Pseudo Elements](https://elzero.org/css-assignments-lesson-from-34-to-37/) | 34 → 37 | 4           |
-| [Border Radius, Box Shadow](https://elzero.org/css-assignments-lesson-from-38-to-41/)       | 38 → 41 | 3           |
-| [Transitions, Variables](https://elzero.org/css-assignments-lesson-from-42-to-45/)          | 42 → 45 | 3           |
-| [Flex Box](https://elzero.org/css-assignments-lesson-from-46-to-53/)                        | 46 → 53 | 6           |
-| [Filters, Gradient](https://elzero.org/css-assignments-lesson-from-54-to-56/)               | 54 → 56 | 2           |
-| [Grid](https://elzero.org/css-assignments-lesson-from-57-to-64/)                            | 57 → 64 | 6           |
-| [Scale, Rotate, Translate](https://elzero.org/css-assignments-lesson-from-65-to-67/)        | 65 → 67 | 3           |
-| [Skew, Matrix, 3D Transform](https://elzero.org/css-assignments-lesson-from-68-to-73/)      | 68 → 73 | 5           |
-| [Animation](https://elzero.org/css-assignments-lesson-from-74-to-77/)                       | 74 → 77 | 4           |
-| [Selectors](https://elzero.org/css-assignments-lesson-from-78-to-82/)                       | 78 → 82 | 8           |
-| [Media Queries](https://elzero.org/css-assignments-lesson-from-83-to-85/)                   | 83 → 85 | 3           |
-| [Global Values](https://elzero.org/css-assignments-lesson-from-86-to-88/)                   | 86 → 88 | 2           |
-| [All Course](https://elzero.org/css-assignments-lesson-from-1-to-88/)                       | 1 → 88  | 25          |
+|Section|Lessons|Assignments|
+|---|---|---|
+|[Elements And Naming](https://elzero.org/css-assignments-lesson-from-1-to-4/)|1 → 4|6|
+|[Background, Margin, Padding](https://elzero.org/css-assignments-lesson-from-5-to-8/)|5 → 8|4|
+|[Border, Outline, Display](https://elzero.org/css-assignments-lesson-from-9-to-12/)|9 → 12|2|
+|[Nesting, Dimensions, Overflow](https://elzero.org/css-assignments-lesson-from-13-to-16/)|13 → 16|2|
+|[Text Formatting](https://elzero.org/css-assignments-lesson-from-17-to-21/)|17 → 21|4|
+|[Inheritance, Typography](https://elzero.org/css-assignments-lesson-from-22-to-26/)|22 → 26|3|
+|[Float, Opacity](https://elzero.org/css-assignments-lesson-from-27-to-29/)|27 → 29|2|
+|[Position, List, Table](https://elzero.org/css-assignments-lesson-from-30-to-33/)|30 → 33|4|
+|[Pseudo Classes, Pseudo Elements](https://elzero.org/css-assignments-lesson-from-34-to-37/)|34 → 37|4|
+|[Border Radius, Box Shadow](https://elzero.org/css-assignments-lesson-from-38-to-41/)|38 → 41|3|
+|[Transitions, Variables](https://elzero.org/css-assignments-lesson-from-42-to-45/)|42 → 45|3|
+|[Flex Box](https://elzero.org/css-assignments-lesson-from-46-to-53/)|46 → 53|6|
+|[Filters, Gradient](https://elzero.org/css-assignments-lesson-from-54-to-56/)|54 → 56|2|
+|[Grid](https://elzero.org/css-assignments-lesson-from-57-to-64/)|57 → 64|6|
+|[Scale, Rotate, Translate](https://elzero.org/css-assignments-lesson-from-65-to-67/)|65 → 67|3|
+|[Skew, Matrix, 3D Transform](https://elzero.org/css-assignments-lesson-from-68-to-73/)|68 → 73|5|
+|[Animation](https://elzero.org/css-assignments-lesson-from-74-to-77/)|74 → 77|4|
+|[Selectors](https://elzero.org/css-assignments-lesson-from-78-to-82/)|78 → 82|8|
+|[Media Queries](https://elzero.org/css-assignments-lesson-from-83-to-85/)|83 → 85|3|
+|[Global Values](https://elzero.org/css-assignments-lesson-from-86-to-88/)|86 → 88|2|
+|[All Course](https://elzero.org/css-assignments-lesson-from-1-to-88/)|1 → 88|25|
 
 ---
 
 # Assignments Solutions
 
 ## Elements And Naming
+
 ### Assignment 1
 
 ```css
@@ -99,6 +100,7 @@ p {
 ---
 
 ## Background, Margin, Padding
+
 ### Assignment 1
 
 ```css
@@ -125,6 +127,8 @@ p {
   background-color: rgba(138, 43, 226, 0.1);
 }
 ```
+
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/css-assignments-lessons-5-8-1.png" alt="final result" style="height:auto;"> </div>
 
 ---
 
@@ -153,6 +157,8 @@ p {
 }
 ```
 
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/css-assignments-lessons-5-8-2.png" alt="final result" style="height:auto;"> </div>
+
 ---
 
 ### Assignment 3
@@ -172,6 +178,8 @@ p {
   background-position: 0% 100%;
 }
 ```
+
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/css-assignments-lessons-5-8-3.png" alt="final result" style="height:auto;"> </div>
 
 ---
 
@@ -202,15 +210,16 @@ p {
 }
 ```
 
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/css-assignments-lessons-5-8-4.png" alt="final result" style="height:auto;"> </div>
+
 ---
 
 ## Border, Outline, Display
+
 ### Assignment 1
 
 ```css
-.shape1,
-.shape2,
-.shape3 {
+.element {
   background-color: #ddd;
   display: inline-block;
   border: 5px solid;
@@ -219,19 +228,21 @@ p {
   padding: 25px;
 }
 
-.shape1 {
+.element-1 {
   border-color: red;
 }
 
-.shape2 {
+.element-2 {
   border-color: blue green;
 }
 
-.shape3 {
+.element-3 {
   border-color: red green blue yellow;
   border-style: dashed;
 }
 ```
+
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/css-assignments-lessons-9-12-1.png" alt="final result" style="height:auto;"> </div>
 
 ---
 
@@ -244,6 +255,7 @@ p {
 ---
 
 ## Nesting, Dimensions, Overflow
+
 ### Assignment 1
 
 ```css
@@ -260,6 +272,8 @@ p {
   color: green;
 }
 ```
+
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/css-assignments-lessons-13-16-1.png" alt="final result" style="height:auto;"> </div>
 
 ---
 
@@ -298,9 +312,12 @@ body {
 }
 ```
 
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/css-assignments-lessons-13-16-1.png" alt="final result" style="height:auto;"> </div>
+
 ---
 
 ## Text Formatting
+
 ### Assignment 1
 
 ```css
@@ -315,6 +332,8 @@ p {
     4px 4px 0 #7c3bff;
 }
 ```
+
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/css-assignments-lessons-17-21-1.png" alt="final result" style="height:auto;"> </div>
 
 ---
 
@@ -333,6 +352,8 @@ p {
   text-transform: lowercase;
 }
 ```
+
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/css-assignments-lessons-17-21-2.png" alt="final result" style="height:auto;"> </div>
 
 ---
 
@@ -358,28 +379,34 @@ div {
 }
 ```
 
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/css-assignments-lessons-17-21-3.png" alt="final result" style="height:auto;"> </div>
+
 ---
 
 ### Assignment 4
 
 ```css
 a {
-  display: block;
-  background-color: #009688;
-  text-transform: capitalize;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #fff;
-  text-decoration: none;
-  font-size: 2.5rem;
-  font-weight: bold;
-  padding: 60px 120px;
-  border-bottom: #013933 solid 20px;
+	width: fit-content;
+	display: block;
+	background-color: #009688;
+	text-transform: capitalize;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #fff;
+	text-decoration: none;
+	font-size: 2.5rem;
+	font-weight: bold;
+	padding: 60px 120px;
+	border-bottom: #013933 solid 20px;
 }
 ```
+
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/css-assignments-lessons-17-21-4.png" alt="final result" style="height:auto;"> </div>
 
 ---
 
 ## Inheritance, Typography
+
 ### Assignment 1
 
 ```css
@@ -398,6 +425,8 @@ div p {
   padding: inherit;
 }
 ```
+
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/css-assignments-lessons-22-26-1.png" alt="final result" style="height:auto;"> <span></span> <img src="assignments-media/css-assignments-lessons-22-26-1.1.png" alt="final result with changes to check inheritancs" style="height:auto;"> </div>
 
 ---
 
@@ -426,6 +455,8 @@ div p {
 }
 ```
 
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/css-assignments-lessons-22-26-2.png" alt="final result" style="height:auto;"> </div>
+
 ---
 
 ### Assignment 3
@@ -448,8 +479,9 @@ html {
 }
 ```
 
----
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/css-assignments-lessons-22-26-3.png" alt="final result" style="height:auto;"> </div>
 
+---
 
 ## Float, Opacity
 
@@ -527,6 +559,8 @@ body {
 }
 ```
 
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/css-assignments-lessons-27-29-1.png" alt="final result" style="height:auto;"> </div>
+
 ---
 
 ### Assignment 2
@@ -540,6 +574,8 @@ body {
   opacity: 0.1;
 }
 ```
+
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/css-assignments-lessons-27-29-2.png" alt="final result" style="height:auto;"> </div>
 
 ---
 
@@ -558,14 +594,14 @@ body {
 }
 
 .green {
-  background-color: green;
+  background-color: #009688;
   z-index: 3;
   top: 30px;
   left: 30px;
 }
 
 .blue {
-  background-color: blue;
+  background-color: #03a9f4;
   top: 20px;
   left: 20px;
   z-index: 1;
@@ -581,12 +617,14 @@ body {
 }
 
 .red {
-  background-color: red;
+  background-color: #f44336;
   z-index: 4;
   top: 40px;
   left: 40px;
 }
 ```
+
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/css-assignments-lessons-30-33-1.png" alt="final result" style="height:auto;"> </div>
 
 ---
 
@@ -639,6 +677,8 @@ div {
   border-left: 3px solid blueviolet;
 }
 ```
+
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/css-assignments-lessons-30-33-2.png" alt="final result" style="height:auto;"> </div>
 
 ---
 
@@ -713,6 +753,8 @@ ol {
 }
 ```
 
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/css-assignments-lessons-30-33-3.png" alt="final result" style="height:auto;"> </div>
+
 ---
 
 ### Assignment 4
@@ -742,6 +784,8 @@ div {
 }
 ```
 
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/css-assignments-lessons-34-37-1.png" alt="final result" style="height:auto;"> </div>
+
 ---
 
 ### Assignment 2
@@ -770,6 +814,8 @@ div::first-letter {
   margin-right: 20px;
 }
 ```
+
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/css-assignments-lessons-34-37-2.png" alt="final result" style="height:auto;"> </div>
 
 ---
 
@@ -812,6 +858,8 @@ div::first-letter {
 }
 ```
 
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/css-assignments-lessons-34-37-3.png" alt="final result" style="height:auto;"> </div>
+
 ---
 
 ### Assignment 4
@@ -851,10 +899,14 @@ div::first-letter {
 }
 ```
 
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/css-assignments-lessons-34-37-4.png" alt="final result" style="height:auto;"> </div>
+
 ---
+
 ## Border Radius, Box Shadow
 
 ### Assignment 1
+
 ```css
 .parent {
 	width: 100%;
@@ -901,9 +953,13 @@ div::first-letter {
 	transform: translate(-50%, -50%);
 }
 ```
+
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/css-assignments-lessons-38-41-1.png" alt="final result" style="height:auto;"> </div>
+
 ---
 
 ### Assignment 2
+
 ```css
 .parent {
 	width: 100%;
@@ -920,9 +976,16 @@ div::first-letter {
 	box-shadow: 0px 0px 10px inset #646464;
 }
 ```
+
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/css-assignments-lessons-38-41-2.png" alt="final result" style="height:auto;"> </div>
+
 ---
 
 ### Assignment 3
+
+```css
+/* TODO: Solve Later */
+```
 
 ---
 
@@ -967,6 +1030,8 @@ p {
 }
 ```
 
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/css-assignments-lessons-42-45-1.gif" alt="final result" style="height:auto;"> </div>
+
 ---
 
 ### Assignment 2
@@ -992,6 +1057,8 @@ div::after {
 }
 ```
 
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/css-assignments-lessons-42-45-2.png" alt="final result" style="height:auto;"> </div>
+
 ---
 
 ### Assignment 3
@@ -1012,6 +1079,8 @@ div {
   align-content: center;
 }
 ```
+
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/css-assignments-lessons-42-45-3-part1.png" alt="final result" style="height:auto;"> </div>
 
 ---
 
@@ -1049,17 +1118,19 @@ div::before {
 }
 
 div::before {
-  right: 240px;
+  right: 330px;
   background-color: #ff5733;
   z-index: -2;
 }
 
 div::after {
-  left: 240px;
+  left: 340px;
   background-color: #03a9f4;
   z-index: -1;
 }
 ```
+
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/css-assignments-lessons-46-53-1.png" alt="final result" style="height:auto;"> </div>
 
 ---
 
@@ -1095,6 +1166,8 @@ main {
   justify-content: center;
 }
 ```
+
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/css-assignments-lessons-46-53-2.png" alt="final result" style="height:auto;"> </div>
 
 ---
 
@@ -1146,6 +1219,8 @@ main {
 }
 ```
 
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/css-assignments-lessons-46-53-3.png" alt="final result" style="height:auto;"> </div>
+
 ---
 
 ### Assignment 4
@@ -1187,6 +1262,8 @@ main {
   width: 5%;
 }
 ```
+
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/css-assignments-lessons-46-53-4.png" alt="final result" style="height:auto;"> </div>
 
 ---
 
@@ -1244,6 +1321,8 @@ main {
   background-color: #673ab7;
 }
 ```
+
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/css-assignments-lessons-46-53-5.png" alt="final result" style="height:auto;"> </div>
 
 ---
 
@@ -1324,6 +1403,8 @@ main {
   padding: var(--padding);
 }
 ```
+
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/css-assignments-lessons-46-53-6.png" alt="final result" style="height:auto;"> </div>
 
 ---
 
@@ -1410,6 +1491,8 @@ div::after {
 }
 ```
 
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/css-assignments-lessons-54-56-1.png" alt="final result" style="height:auto;"> </div>
+
 ---
 
 ### Assignment 2
@@ -1469,6 +1552,8 @@ div::after {
 }
 ```
 
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/css-assignments-lessons-54-56-2.png" alt="final result" style="height:auto;"> </div>
+
 ---
 
 ## Grid
@@ -1522,6 +1607,8 @@ main {
 .grid div:nth-child(5)::after { content: "Element 5"; }
 .grid div:nth-child(6)::after { content: "Element 6"; }
 ```
+
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/css-assignments-lessons-57-64-1.png" alt="final result" style="height:auto;"> </div>
 
 ---
 
@@ -1581,6 +1668,8 @@ aside::after { content: "Aside"; color: white; }
 footer::after { content: "Footer"; color: white; }
 ```
 
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/css-assignments-lessons-57-64-2.png" alt="final result" style="height:auto;"> </div>
+
 ---
 
 ### Assignment 3
@@ -1623,6 +1712,8 @@ main {
 }
 ```
 
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/css-assignments-lessons-57-64-3.png" alt="final result" style="height:auto;"> </div>
+
 ---
 
 ### Assignment 4
@@ -1664,6 +1755,8 @@ main {
 .eight { grid-area: eight; }
 ```
 
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/css-assignments-lessons-57-64-4.png" alt="final result" style="height:auto;"> </div>
+
 ---
 
 ### Assignment 5
@@ -1700,10 +1793,14 @@ main {
 .grid :nth-child(4) { grid-area: four; }
 ```
 
----
-### Assignment 5
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/css-assignments-lessons-57-64-5.png" alt="final result" style="height:auto;"> </div>
 
 ---
+
+### Assignment 6
+
+---
+
 ## Scale, Rotate, Translate
 
 ### Assignment 1
@@ -1743,6 +1840,8 @@ div::after {
   z-index: -2;
 }
 ```
+
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/css-assignments-lessons-65-67-1.png" alt="final result" style="height:auto;"> </div>
 
 ---
 
@@ -1789,6 +1888,8 @@ div::after {
   z-index: -2;
 }
 ```
+
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/css-assignments-lessons-65-67-2.png" alt="final result" style="height:auto;"> </div>
 
 ---
 
@@ -1844,6 +1945,8 @@ div:hover::after {
 }
 ```
 
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/css-assignments-lessons-65-67-3.gif" alt="final result" style="height:auto;"> </div>
+
 ---
 
 ## Skew, Matrix, 3D Transform
@@ -1888,6 +1991,8 @@ h1::after {
 }
 ```
 
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/css-assignments-lessons-68-73-1.png" alt="final result" style="height:auto;"> </div>
+
 ---
 
 ### Assignment 2
@@ -1929,6 +2034,8 @@ h1::after {
   z-index: -1;
 }
 ```
+
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/css-assignments-lessons-68-73-2.png" alt="final result" style="height:auto;"> </div>
 
 ---
 
@@ -2013,6 +2120,8 @@ div::after {
 }
 ```
 
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/css-assignments-lessons-68-73-5.gif" alt="final result" style="height:auto;"> <img src="assignments-media/css-assignments-lessons-68-73-5-2.gif" alt="final result" style="height:auto;"> </div>
+
 ---
 
 ## Animation
@@ -2065,6 +2174,8 @@ div::after {
   border-top-color: transparent;
 }
 ```
+
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/css-assignments-lessons-74-77-1.gif" alt="final result" style="height:auto;"> </div>
 
 ---
 
@@ -2122,6 +2233,8 @@ div:hover::after {
 }
 ```
 
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/css-assignments-lessons-74-77-2.gif" alt="final result" style="height:auto;"> </div>
+
 ---
 
 ### Assignment 3
@@ -2139,6 +2252,8 @@ span {
   animation-play-state: running;
 }
 ```
+
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/css-assignments-lessons-74-77-3.gif" alt="final result" style="height:auto;"> </div>
 
 ---
 
@@ -2263,6 +2378,10 @@ span {
 }
 ```
 
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;">
+  <img src="assignments-media/css-assignments-lessons-74-77-4.gif" alt="final result" style="height:auto;">
+</div>
+
 ---
 
 ## Selectors
@@ -2275,6 +2394,8 @@ div.main.red {
 }
 ```
 
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/css-assignments-lessons-78-82-1.png" alt="final result" style="height:auto;"> </div>
+
 ---
 
 ### Assignment 2
@@ -2284,6 +2405,8 @@ div.main.red {
   color: red;
 }
 ```
+
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/css-assignments-lessons-78-82-2.png" alt="final result" style="height:auto;"> </div>
 
 ---
 
@@ -2295,6 +2418,8 @@ div.parent:nth-child(2) .baby {
 }
 ```
 
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/css-assignments-lessons-78-82-3.png" alt="final result" style="height:auto;"> </div>
+
 ---
 
 ### Assignment 4
@@ -2304,6 +2429,8 @@ main > div[title]:not(.no-need) {
   color: red;
 }
 ```
+
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/css-assignments-lessons-78-82-4.png" alt="final result" style="height:auto;"> </div>
 
 ---
 
@@ -2315,6 +2442,8 @@ main > div:nth-child(2) div[title] {
 }
 ```
 
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/css-assignments-lessons-78-82-5.png" alt="final result" style="height:auto;"> </div>
+
 ---
 
 ### Assignment 6
@@ -2324,6 +2453,8 @@ main > div:not(:nth-child(3)) div:nth-last-of-type(2) {
   color: red;
 }
 ```
+
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/css-assignments-lessons-78-82-6.png" alt="final result" style="height:auto;"> </div>
 
 ---
 
@@ -2335,6 +2466,8 @@ main > div:nth-child(1) div:nth-last-child(2) {
 }
 ```
 
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/css-assignments-lessons-78-82-7.png" alt="final result" style="height:auto;"> </div>
+
 ---
 
 ### Assignment 8
@@ -2344,6 +2477,8 @@ main > div > *:not(h3):not(:first-child):not(:last-child) {
   color: red;
 }
 ```
+
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/css-assignments-lessons-78-82-8.png" alt="final result" style="height:auto;"> </div>
 
 ---
 
@@ -2432,6 +2567,8 @@ main > div > *:not(h3):not(:first-child):not(:last-child) {
 }
 ```
 
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/css-assignments-lessons-83-85-2.1.png" alt="final result" style="height:auto;"><img src="assignments-media/css-assignments-lessons-83-85-2.2.png" alt="final result" style="height:auto;"><img src="assignments-media/css-assignments-lessons-83-85-2.3.png" alt="final result" style="height:auto;"> </div>
+
 ---
 
 ### Assignment 3
@@ -2500,6 +2637,8 @@ main > div > *:not(h3):not(:first-child):not(:last-child) {
   }
 }
 ```
+
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/css-assignments-lessons-83-85-3-1.png" alt="final result" style="height:auto;">  <img src="assignments-media/css-assignments-lessons-83-85-3-2.png" alt="final result" style="height:auto;"> <img src="assignments-media/css-assignments-lessons-83-85-3-3.png" alt="final result" style="height:auto;"></div>
 
 ---
 
@@ -2581,3 +2720,5 @@ main > div > *:not(h3):not(:first-child):not(:last-child) {
   border-right-color: #dddddd;
 }
 ```
+
+<div style="display:flex; justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;"> <img src="assignments-media/css-assignments-lessons-86-88-2.png" alt="final result" style="height:auto;"> </div>
