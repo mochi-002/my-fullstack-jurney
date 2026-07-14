@@ -117,7 +117,31 @@
 		{"id":"4a50fdead159d6ec","type":"file","file":"020_Notes/tracks/Fullstack/01-Frontend/03-CSS/02-CSS Assignments.md","x":840,"y":-320,"width":400,"height":790,"color":"6"},
 		{"id":"05c793239ab4528c","type":"file","file":"020_Notes/tracks/Fullstack/01-Frontend/03-CSS/01-CSS.md","x":221,"y":-320,"width":400,"height":318,"color":"6"},
 		{"id":"b716e2874777f205","type":"file","file":"020_Notes/tracks/Fullstack/01-Frontend/03-CSS/04-CSS Advanced Topics.md","x":111,"y":75,"width":565,"height":72,"color":"1"},
-		{"id":"e6e35bec5b4f3311","type":"file","file":"020_Notes/tracks/Fullstack/01-Frontend/03-CSS/03-CSS All Course Assignments.md","x":247,"y":233,"width":483,"height":70,"color":"6"}
+		{"id":"e6e35bec5b4f3311","type":"file","file":"020_Notes/tracks/Fullstack/01-Frontend/03-CSS/03-CSS All Course Assignments.md","x":247,"y":233,"width":483,"height":70,"color":"6"},
+		{
+			"id":"6413efb8e50dc753",
+			"type":"text",
+			"text":"# 08-CSS Frameworks",
+			"styleAttributes":{},
+			"x":-186,
+			"y":975,
+			"width":353,
+			"height":60,
+			"color":"4"
+		},
+		{"id":"ddbe49675093094d","type":"file","file":"020_Notes/tracks/Fullstack/01-Frontend/07-CSS-Frameworks/01.0-Tailwind CSS v3.md","x":-741,"y":696,"width":400,"height":459,"color":"6"},
+		{"id":"56dd3731d8cf36ee","type":"file","file":"020_Notes/tracks/Fullstack/01-Frontend/07-CSS-Frameworks/01.1-Acme Rockets Project with Tailwind.md","x":-1484,"y":705,"width":710,"height":105,"color":"6"},
+		{
+			"id":"2f7cd5a1e40387b7",
+			"type":"text",
+			"text":"# 09-Vanilla JS frontend  applications",
+			"styleAttributes":{},
+			"x":-113,
+			"y":1180,
+			"width":560,
+			"height":60,
+			"color":"3"
+		}
 	],
 	"edges":[
 		{
@@ -139,7 +163,10 @@
 			"id":"f1afab64cdc891de",
 			"toFloating":false,
 			"fromFloating":false,
-			"styleAttributes":{"arrow":"diamond-outline","pathfindingMethod":"a-star"},
+			"styleAttributes":{
+				"arrow":"diamond-outline",
+				"pathfindingMethod":null
+			},
 			"fromNode":"7e130725f8c5c7fd",
 			"fromSide":"bottom",
 			"toNode":"72429c2a56b1fb68",
@@ -193,7 +220,9 @@
 		},
 		{
 			"id":"530081f77cb91472",
-			"styleAttributes":{"pathfindingMethod":"a-star"},
+			"styleAttributes":{
+				"pathfindingMethod":null
+			},
 			"toFloating":false,
 			"fromFloating":false,
 			"fromNode":"72429c2a56b1fb68",
@@ -333,7 +362,9 @@
 		},
 		{
 			"id":"7109056136bf1959",
-			"styleAttributes":{"pathfindingMethod":"square"},
+			"styleAttributes":{
+				"pathfindingMethod":null
+			},
 			"toFloating":false,
 			"fromFloating":false,
 			"fromNode":"e821fb9439bbbe6f",
@@ -345,7 +376,9 @@
 		},
 		{
 			"id":"a8e8a49916fa2d7d",
-			"styleAttributes":{"pathfindingMethod":"square"},
+			"styleAttributes":{
+				"pathfindingMethod":null
+			},
 			"toFloating":false,
 			"fromFloating":false,
 			"fromNode":"5b5088cbd635a3f9",
@@ -388,7 +421,9 @@
 		},
 		{
 			"id":"d14730622655cf69",
-			"styleAttributes":{"pathfindingMethod":"square"},
+			"styleAttributes":{
+				"pathfindingMethod":null
+			},
 			"toFloating":false,
 			"fromFloating":false,
 			"fromNode":"7f7bfbd3842b8f54",
@@ -412,7 +447,7 @@
 			"id":"362f8abd2129f704",
 			"styleAttributes":{
 				"path":null,
-				"pathfindingMethod":"square"
+				"pathfindingMethod":null
 			},
 			"toFloating":false,
 			"fromFloating":false,
@@ -453,6 +488,55 @@
 			"toNode":"b716e2874777f205",
 			"toSide":"bottom",
 			"color":"#000000"
+		},
+		{
+			"id":"f475652699ce1c98",
+			"styleAttributes":{
+				"pathfindingMethod":null
+			},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"795bcb8c1187306b",
+			"fromSide":"bottom",
+			"toNode":"6413efb8e50dc753",
+			"toSide":"top",
+			"toEnd":"none",
+			"color":"#ffffff"
+		},
+		{
+			"id":"b2f87b3bd359e244",
+			"styleAttributes":{"path":"long-dashed","arrow":"triangle-outline"},
+			"toFloating":false,
+			"fromNode":"6413efb8e50dc753",
+			"fromSide":"left",
+			"toNode":"ddbe49675093094d",
+			"toSide":"right",
+			"color":"#0f0f0f"
+		},
+		{
+			"id":"e91f37092c131094",
+			"styleAttributes":{"path":"long-dashed","arrow":"triangle-outline"},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"ddbe49675093094d",
+			"fromSide":"left",
+			"toNode":"56dd3731d8cf36ee",
+			"toSide":"bottom",
+			"color":"#0f0f0f"
+		},
+		{
+			"id":"6d8b7cd3f6cf6a2b",
+			"styleAttributes":{
+				"pathfindingMethod":null
+			},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"6413efb8e50dc753",
+			"fromSide":"bottom",
+			"toNode":"2f7cd5a1e40387b7",
+			"toSide":"top",
+			"toEnd":"none",
+			"color":"#ffffff"
 		}
 	],
 	"metadata":{

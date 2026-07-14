@@ -37,7 +37,10 @@
 ---
 ### 06 - CSS Frameworks (Tailwind)
 
-_(links to be added)_
-
-
+1. [Tailwind CSS Full Course for Beginners](https://www.youtube.com/watch?v=lCxcTsOHrjo)
+	#video #material
+2. [officialTailwind Website](https://tailwindcss.com)
+	#document  #material
+3. [officialOnline Playground](https://play.tailwindcss.com)
+	#game #material
 ---
