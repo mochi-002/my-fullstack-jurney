@@ -21,6 +21,12 @@
 ### 03 - Javascript
 > (see Shared Foundations)
 ---
+### Break
+1. [Beginner Frontend Projects](https://roadmap.sh/frontend/projects?difficulty=beginner)
+	#projects
+2. [Elzero Web School Templates](https://elzero.org/category/courses/html-and-css-practice/)
+	#projects
+---
 ### 04 - Git & Github
 > (see Shared Foundations)
 ---
@@ -44,3 +50,16 @@
 3. [officialOnline Playground](https://play.tailwindcss.com)
 	#game #material
 ---
+### Break
+1. [Intermediate Frontend Projects](https://roadmap.sh/frontend/projects?difficulty=intermediate)
+	#projects
+---
+
+### 26-TypeScript
+
+1. [TypeScript - Elzero Web School](https://elzero.org/study/typescript-study-plan/)
+	#roadmap #material
+2. [TypeScript Playlist - Elzero Web School](https://www.youtube.com/playlist?list=PLDoPjvoNmBAy532K9M_fjiAmrJ0gkCyLJ)
+	#playlist  #material
+3. [TypeScript Assignments - Elzero](https://elzero.org/category/assignments/typescript-assignments/)
+	#assignments #material

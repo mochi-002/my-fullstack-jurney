@@ -1,158 +1,110 @@
 {
 	"nodes":[
 		{
-			"id":"9aada2d94c541301",
-			"type":"file",
-			"file":"020_Notes/tracks/Fullstack/00-Materials/Shared Materials.md",
-			"styleAttributes":{"border":"invisible"},
-			"x":-2000,
-			"y":-1265,
-			"width":606,
-			"height":1312,
-			"color":"1"
-		},
-		{
-			"id":"73f58d6eefd56fa1",
-			"type":"file",
-			"file":"020_Notes/tracks/Fullstack/00-Materials/Backend.md",
-			"styleAttributes":{"border":"invisible"},
-			"x":-2000,
-			"y":47,
-			"width":606,
-			"height":1312,
-			"color":"1"
-		},
-		{"id":"2bf43e7727812deb","type":"text","text":"what is domain name?","x":336,"y":-915,"width":258,"height":77,"color":"6"},
-		{"id":"aad420f56dec897d","type":"text","text":"DNS and how it works?","x":336,"y":-645,"width":298,"height":60,"color":"6"},
-		{"id":"a07c4b8d4b4a6645","type":"text","text":"what is http?","x":356,"y":-1005,"width":181,"height":80,"color":"6"},
-		{"id":"652b1c8b9a3d2451","type":"text","text":"what is hosting?","x":356,"y":-813,"width":198,"height":68,"color":"6"},
-		{"id":"a58cb830adb47445","type":"file","file":"020_Notes/tracks/Fullstack/02-Backend/01-Web-Basics/Internet.md","x":740,"y":-915,"width":240,"height":60,"color":"6"},
-		{
-			"id":"f99bac9165d83576",
+			"id":"7926833ef898710e",
 			"type":"text",
-			"text":"# 03-Version Control Systems \n# 04-Repo Hosting Services ",
+			"text":"#    Start",
 			"styleAttributes":{},
-			"x":-400,
-			"y":-465,
-			"width":540,
-			"height":120,
-			"color":"4"
+			"x":-24,
+			"y":-1280,
+			"width":158,
+			"height":60,
+			"color":"1"
 		},
+		{"id":"e708420e023a38f4","type":"text","text":"DNS and how it works?","x":386,"y":-877,"width":298,"height":60,"color":"6"},
+		{"id":"bd3b85ff38e590ce","type":"text","text":"what is domain name?","x":386,"y":-1137,"width":258,"height":77,"color":"6"},
+		{"id":"4e9291d61ec0bc17","type":"text","text":"what is hosting?","x":406,"y":-1035,"width":198,"height":60,"color":"6"},
+		{"id":"6e63c81944a7f0be","type":"text","text":"what is http?","x":415,"y":-1217,"width":181,"height":60,"color":"6"},
 		{
 			"id":"0b701612f4b5ea34",
 			"type":"text",
 			"text":"# 02-Pick a Backend Language",
 			"styleAttributes":{},
-			"x":-280,
-			"y":-645,
+			"x":-830,
+			"y":-927,
 			"width":520,
 			"height":60,
 			"color":"4"
 		},
-		{"id":"d7773241260a661c","type":"file","file":"020_Notes/tracks/Fullstack/02-Backend/01-Web-Basics/Internet.md","x":-20,"y":-868,"width":232,"height":60,"color":"4"},
 		{
-			"id":"7926833ef898710e",
+			"id":"f99bac9165d83576",
 			"type":"text",
-			"text":"#    Start",
+			"text":"# 03-Version Control Systems \n# 04-Repo Hosting Services ",
 			"styleAttributes":{},
-			"x":13,
-			"y":-1265,
-			"width":158,
+			"x":-310,
+			"y":-762,
+			"width":540,
+			"height":120,
+			"color":"4"
+		},
+		{"id":"75d1db62cb089e8f","type":"file","file":"020_Notes/tracks/Fullstack/02-Backend/03-Version-Control-ans-RHS/03-VCS & RHS.md","x":-450,"y":-555,"width":280,"height":60,"color":"6"},
+		{
+			"id":"1a30cc85eb989bee",
+			"type":"text",
+			"text":"# 04- Relational Databases",
+			"styleAttributes":{},
+			"x":134,
+			"y":-585,
+			"width":470,
+			"height":60,
+			"color":"3"
+		},
+		{"id":"f27d272e2e6f9916","type":"file","file":"020_Notes/tracks/Fullstack/01-Frontend/01-Web-Basics/Internet.md","x":863,"y":-1171,"width":400,"height":222,"color":"6"},
+		{"id":"6859de872331e2b9","type":"text","text":"How does the internet work?","x":364,"y":-1297,"width":320,"height":60,"color":"6"},
+		{"id":"63a082b611d451fa","type":"text","text":"Browsers and how they work?","x":364,"y":-957,"width":340,"height":60,"color":"6"},
+		{"id":"70559e4fcd2be68d","type":"file","file":"020_Notes/tracks/Fullstack/02-Backend/02-JavaScript/01.2-JavaScript All Course Assignments.md","x":-1230,"y":-555,"width":650,"height":60,"color":"6"},
+		{"id":"555199321efea236","type":"file","file":"020_Notes/tracks/Fullstack/02-Backend/02-JavaScript/01.1-JavaScript Assignments.md","x":-1155,"y":-675,"width":500,"height":60,"color":"6"},
+		{"id":"bd2d51aaaba6cc86","type":"file","file":"020_Notes/tracks/Fullstack/02-Backend/02-JavaScript/01.0-JavaScript.md","x":-1065,"y":-792,"width":320,"height":60,"color":"6"},
+		{
+			"id":"504e2351a229e8b7",
+			"type":"text",
+			"text":"# 05-APIs",
+			"styleAttributes":{},
+			"x":-40,
+			"y":-310,
+			"width":260,
 			"height":60,
 			"color":"1"
 		},
-		{"id":"2749b8a7fb92588c","type":"text","text":"How does the internet work?","x":314,"y":-1085,"width":320,"height":70,"color":"6"},
-		{"id":"f896015aede0cc6b","type":"text","text":"Browsers and how they work?","x":314,"y":-735,"width":340,"height":70,"color":"6"},
-		{"id":"555199321efea236","type":"file","file":"020_Notes/tracks/Fullstack/02-Backend/02-JavaScript/01.1-JavaScript Assignments.md","x":-930,"y":-745,"width":500,"height":60,"color":"6"},
-		{"id":"75d1db62cb089e8f","type":"file","file":"020_Notes/tracks/Fullstack/02-Backend/03-Version-Control-ans-RHS/03-VCS & RHS.md","x":-780,"y":-465,"width":280,"height":60,"color":"6"},
-		{"id":"bd2d51aaaba6cc86","type":"file","file":"020_Notes/tracks/Fullstack/02-Backend/02-JavaScript/01.0-JavaScript.md","x":-720,"y":-645,"width":320,"height":60,"color":"6"},
-		{"id":"70559e4fcd2be68d","type":"file","file":"020_Notes/tracks/Fullstack/02-Backend/02-JavaScript/01.2-JavaScript All Course Assignments.md","x":-1300,"y":-855,"width":580,"height":60,"color":"6"}
+		{
+			"id":"9aada2d94c541301",
+			"type":"file",
+			"file":"020_Notes/tracks/Fullstack/00-Materials/Shared Materials.md",
+			"styleAttributes":{"border":"invisible"},
+			"x":-2000,
+			"y":-1280,
+			"width":606,
+			"height":2672,
+			"color":"1"
+		},
+		{
+			"id":"ad7be16b14058fc9",
+			"type":"file",
+			"file":"020_Notes/tracks/Fullstack/00-Materials/Backend.md",
+			"styleAttributes":{"border":"invisible"},
+			"x":1440,
+			"y":-1280,
+			"width":606,
+			"height":2672,
+			"color":"1"
+		},
+		{"id":"bbe0784f6517c784","type":"file","file":"020_Notes/tracks/Fullstack/02-Backend/04-Relational-Database/04.1-CS50x.md","x":684,"y":-555,"width":579,"height":195,"color":"6"},
+		{"id":"8d0f2f7a5adf3775","type":"file","file":"020_Notes/tracks/Fullstack/02-Backend/04-Relational-Database/04.2-ITI Course.md","x":1015,"y":-702,"width":331,"height":60,"color":"3"},
+		{
+			"id":"2e9ae9c9741fbba8",
+			"type":"text",
+			"text":"# Internet",
+			"styleAttributes":{},
+			"x":-75,
+			"y":-1157,
+			"width":260,
+			"height":60,
+			"color":"4"
+		},
+		{"id":"29cf7aa377f551bd","type":"file","file":"020_Notes/tracks/Fullstack/01-Frontend/26-Type Checkers/TypeScript.md","x":-1042,"y":-450,"width":275,"height":60,"color":"6"},
+		{"id":"39498720cb0629ce","type":"file","file":"020_Notes/tracks/Fullstack/01-Frontend/26-Type Checkers/TypeScript Assignment.md","x":-1167,"y":-344,"width":525,"height":64,"color":"6"}
 	],
 	"edges":[
-		{
-			"id":"5dd2ab11ca1def7f",
-			"styleAttributes":{"path":"short-dashed","arrow":"triangle-outline"},
-			"toFloating":false,
-			"fromFloating":false,
-			"fromNode":"0b701612f4b5ea34",
-			"fromSide":"left",
-			"toNode":"bd2d51aaaba6cc86",
-			"toSide":"right",
-			"color":"#000000"
-		},
-		{
-			"id":"65fa41e2fd9cf2f1",
-			"styleAttributes":{"path":"short-dashed","arrow":"triangle-outline"},
-			"toFloating":false,
-			"fromFloating":false,
-			"fromNode":"bd2d51aaaba6cc86",
-			"fromSide":"bottom",
-			"toNode":"555199321efea236",
-			"toSide":"left",
-			"color":"#000000"
-		},
-		{
-			"id":"9b3c4ae5c4223fdf",
-			"styleAttributes":{"path":"short-dashed","arrow":"triangle-outline"},
-			"toFloating":false,
-			"fromNode":"2749b8a7fb92588c",
-			"fromSide":"right",
-			"toNode":"a58cb830adb47445",
-			"toSide":"left",
-			"color":"#000000"
-		},
-		{
-			"id":"314ba11ff976f202",
-			"styleAttributes":{"path":"short-dashed","arrow":"triangle-outline"},
-			"toFloating":false,
-			"fromNode":"a07c4b8d4b4a6645",
-			"fromSide":"right",
-			"toNode":"a58cb830adb47445",
-			"toSide":"left",
-			"color":"#000000"
-		},
-		{
-			"id":"c5c02359fdc9bac8",
-			"styleAttributes":{"path":"short-dashed","arrow":"triangle-outline"},
-			"toFloating":false,
-			"fromNode":"2bf43e7727812deb",
-			"fromSide":"right",
-			"toNode":"a58cb830adb47445",
-			"toSide":"left",
-			"color":"#000000"
-		},
-		{
-			"id":"590a9bc3cc4adb23",
-			"styleAttributes":{"path":"short-dashed","arrow":"triangle-outline"},
-			"toFloating":false,
-			"fromNode":"652b1c8b9a3d2451",
-			"fromSide":"right",
-			"toNode":"a58cb830adb47445",
-			"toSide":"left",
-			"color":"#000000"
-		},
-		{
-			"id":"54dd5fb99d6ee1dc",
-			"styleAttributes":{"path":"short-dashed","arrow":"triangle-outline"},
-			"toFloating":false,
-			"fromFloating":false,
-			"fromNode":"f896015aede0cc6b",
-			"fromSide":"right",
-			"toNode":"a58cb830adb47445",
-			"toSide":"bottom",
-			"color":"#000000"
-		},
-		{
-			"id":"a0497356745ed763",
-			"styleAttributes":{"path":"short-dashed","arrow":"triangle-outline"},
-			"toFloating":false,
-			"fromFloating":false,
-			"fromNode":"aad420f56dec897d",
-			"fromSide":"right",
-			"toNode":"a58cb830adb47445",
-			"toSide":"bottom",
-			"color":"#000000"
-		},
 		{
 			"id":"f4837799938d1018",
 			"styleAttributes":{},
@@ -160,15 +112,16 @@
 			"fromFloating":false,
 			"fromNode":"7926833ef898710e",
 			"fromSide":"bottom",
-			"toNode":"d7773241260a661c",
+			"toNode":"2e9ae9c9741fbba8",
 			"toSide":"top",
 			"color":"1"
 		},
 		{
 			"id":"67105c9215627ff6",
-			"styleAttributes":{"pathfindingMethod":"square"},
+			"styleAttributes":{"pathfindingMethod":"a-star"},
 			"toFloating":false,
-			"fromNode":"d7773241260a661c",
+			"fromFloating":false,
+			"fromNode":"2e9ae9c9741fbba8",
 			"fromSide":"bottom",
 			"toNode":"0b701612f4b5ea34",
 			"toSide":"top",
@@ -176,70 +129,9 @@
 			"color":"#ffffff"
 		},
 		{
-			"id":"4948635796420010",
-			"styleAttributes":{"path":"short-dashed","arrow":"triangle-outline"},
-			"toFloating":false,
-			"fromFloating":false,
-			"fromNode":"d7773241260a661c",
-			"fromSide":"right",
-			"toNode":"2749b8a7fb92588c",
-			"toSide":"left",
-			"color":"#000000"
-		},
-		{
-			"id":"359f75a43a3dae63",
-			"styleAttributes":{"path":"short-dashed","arrow":"triangle-outline"},
-			"toFloating":false,
-			"fromNode":"d7773241260a661c",
-			"fromSide":"right",
-			"toNode":"a07c4b8d4b4a6645",
-			"toSide":"left",
-			"color":"#000000"
-		},
-		{
-			"id":"c2d8e00ce050ae01",
-			"styleAttributes":{"path":"short-dashed","arrow":"triangle-outline"},
-			"toFloating":false,
-			"fromNode":"d7773241260a661c",
-			"fromSide":"right",
-			"toNode":"2bf43e7727812deb",
-			"toSide":"left",
-			"color":"#000000"
-		},
-		{
-			"id":"a4a4d7ed722197b6",
-			"styleAttributes":{"path":"short-dashed","arrow":"triangle-outline"},
-			"toFloating":false,
-			"fromNode":"d7773241260a661c",
-			"fromSide":"right",
-			"toNode":"652b1c8b9a3d2451",
-			"toSide":"left",
-			"color":"#000000"
-		},
-		{
-			"id":"8b4cf5f6e8ff3c08",
-			"styleAttributes":{"path":"short-dashed","arrow":"triangle-outline"},
-			"toFloating":false,
-			"fromNode":"d7773241260a661c",
-			"fromSide":"right",
-			"toNode":"f896015aede0cc6b",
-			"toSide":"left",
-			"color":"#000000"
-		},
-		{
-			"id":"e30f41b7a95d3034",
-			"styleAttributes":{"path":"short-dashed","arrow":"triangle-outline"},
-			"toFloating":false,
-			"fromNode":"d7773241260a661c",
-			"fromSide":"right",
-			"toNode":"aad420f56dec897d",
-			"toSide":"left",
-			"color":"#000000"
-		},
-		{
 			"id":"7d8d2f89c01a3024",
 			"styleAttributes":{
-				"pathfindingMethod":"square",
+				"pathfindingMethod":"a-star",
 				"arrow":null
 			},
 			"toFloating":false,
@@ -252,25 +144,304 @@
 			"color":"#ffffff"
 		},
 		{
-			"id":"7df1937865d64190",
-			"styleAttributes":{"path":"short-dashed","arrow":"triangle-outline"},
+			"id":"e018c238f5558a99",
+			"styleAttributes":{"pathfindingMethod":"a-star"},
+			"toFloating":false,
+			"fromNode":"f99bac9165d83576",
+			"fromSide":"bottom",
+			"toNode":"1a30cc85eb989bee",
+			"toSide":"top",
+			"toEnd":"none",
+			"color":"#ffffff"
+		},
+		{
+			"id":"65fa41e2fd9cf2f1",
+			"styleAttributes":{"path":"short-dashed","arrow":"thin-triangle"},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"bd2d51aaaba6cc86",
+			"fromSide":"left",
+			"toNode":"555199321efea236",
+			"toSide":"left",
+			"color":"6"
+		},
+		{
+			"id":"88ea5203d893a7f2",
+			"styleAttributes":{"path":"long-dashed","arrow":"thin-triangle"},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"555199321efea236",
+			"fromSide":"right",
+			"toNode":"70559e4fcd2be68d",
+			"toSide":"right",
+			"color":"6"
+		},
+		{
+			"id":"f9823b1a7bd9c5e2",
+			"styleAttributes":{
+				"path":"long-dashed",
+				"arrow":"circle-outline",
+				"pathfindingMethod":null
+			},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"6859de872331e2b9",
+			"fromSide":"right",
+			"toNode":"f27d272e2e6f9916",
+			"toSide":"top",
+			"color":"6"
+		},
+		{
+			"id":"12ba2ed617c7f867",
+			"styleAttributes":{
+				"path":"long-dashed",
+				"arrow":"circle-outline",
+				"pathfindingMethod":null
+			},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"6e63c81944a7f0be",
+			"fromSide":"right",
+			"toNode":"f27d272e2e6f9916",
+			"toSide":"top",
+			"color":"6"
+		},
+		{
+			"id":"52a6b8622e04f6e7",
+			"styleAttributes":{
+				"path":"long-dashed",
+				"arrow":"circle-outline",
+				"pathfindingMethod":null
+			},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"bd3b85ff38e590ce",
+			"fromSide":"right",
+			"toNode":"f27d272e2e6f9916",
+			"toSide":"left",
+			"color":"6"
+		},
+		{
+			"id":"9d95db3b6c4e66bc",
+			"styleAttributes":{
+				"path":"long-dashed",
+				"arrow":"circle-outline",
+				"pathfindingMethod":null
+			},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"4e9291d61ec0bc17",
+			"fromSide":"right",
+			"toNode":"f27d272e2e6f9916",
+			"toSide":"left",
+			"color":"6"
+		},
+		{
+			"id":"67b96d6c6921559c",
+			"styleAttributes":{
+				"path":"long-dashed",
+				"arrow":"circle-outline",
+				"pathfindingMethod":null
+			},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"63a082b611d451fa",
+			"fromSide":"right",
+			"toNode":"f27d272e2e6f9916",
+			"toSide":"bottom",
+			"color":"6"
+		},
+		{
+			"id":"3ae30e1b73d8d9c2",
+			"styleAttributes":{
+				"path":"long-dashed",
+				"arrow":"circle-outline",
+				"pathfindingMethod":null
+			},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"e708420e023a38f4",
+			"fromSide":"right",
+			"toNode":"f27d272e2e6f9916",
+			"toSide":"bottom",
+			"color":"6"
+		},
+		{
+			"id":"aaf241fd197430ae",
+			"styleAttributes":{
+				"path":null,
+				"pathfindingMethod":null
+			},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"2e9ae9c9741fbba8",
+			"fromSide":"right",
+			"toNode":"6859de872331e2b9",
+			"toSide":"left",
+			"toEnd":"none",
+			"color":"#000000"
+		},
+		{
+			"id":"a3f3f1a106d2ccca",
+			"styleAttributes":{
+				"path":null,
+				"pathfindingMethod":null
+			},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"2e9ae9c9741fbba8",
+			"fromSide":"right",
+			"toNode":"6e63c81944a7f0be",
+			"toSide":"left",
+			"toEnd":"none",
+			"color":"#000000"
+		},
+		{
+			"id":"dfc0b4093379a1d0",
+			"styleAttributes":{
+				"path":null,
+				"pathfindingMethod":null
+			},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"2e9ae9c9741fbba8",
+			"fromSide":"right",
+			"toNode":"bd3b85ff38e590ce",
+			"toSide":"left",
+			"toEnd":"none",
+			"color":"#000000"
+		},
+		{
+			"id":"229e23ce0c5efa14",
+			"styleAttributes":{
+				"path":null,
+				"pathfindingMethod":null
+			},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"2e9ae9c9741fbba8",
+			"fromSide":"right",
+			"toNode":"4e9291d61ec0bc17",
+			"toSide":"left",
+			"toEnd":"none",
+			"color":"#000000"
+		},
+		{
+			"id":"3143330474f810c0",
+			"styleAttributes":{
+				"path":null,
+				"pathfindingMethod":null
+			},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"2e9ae9c9741fbba8",
+			"fromSide":"right",
+			"toNode":"63a082b611d451fa",
+			"toSide":"left",
+			"toEnd":"none",
+			"color":"#000000"
+		},
+		{
+			"id":"0f6cd251088f16f9",
+			"styleAttributes":{
+				"path":null,
+				"pathfindingMethod":null
+			},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"2e9ae9c9741fbba8",
+			"fromSide":"right",
+			"toNode":"e708420e023a38f4",
+			"toSide":"left",
+			"toEnd":"none",
+			"color":"#000000"
+		},
+		{
+			"id":"6f671a51f2f73509",
+			"styleAttributes":{
+				"path":null,
+				"pathfindingMethod":null
+			},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"0b701612f4b5ea34",
+			"fromSide":"left",
+			"toNode":"bd2d51aaaba6cc86",
+			"toSide":"top",
+			"toEnd":"none",
+			"color":"#000000"
+		},
+		{
+			"id":"b733d06b2357e5ac",
+			"styleAttributes":{
+				"path":null,
+				"pathfindingMethod":null
+			},
 			"toFloating":false,
 			"fromFloating":false,
 			"fromNode":"f99bac9165d83576",
 			"fromSide":"left",
 			"toNode":"75d1db62cb089e8f",
-			"toSide":"right",
+			"toSide":"top",
+			"toEnd":"none",
 			"color":"#000000"
 		},
 		{
-			"id":"88ea5203d893a7f2",
-			"styleAttributes":{"path":"long-dashed","arrow":"triangle-outline"},
+			"id":"e302b4cbbd4b2e35",
+			"styleAttributes":{
+				"path":null,
+				"pathfindingMethod":null
+			},
 			"toFloating":false,
-			"fromNode":"555199321efea236",
-			"fromSide":"top",
-			"toNode":"70559e4fcd2be68d",
-			"toSide":"right",
+			"fromFloating":false,
+			"fromNode":"1a30cc85eb989bee",
+			"fromSide":"right",
+			"toNode":"bbe0784f6517c784",
+			"toSide":"left",
+			"toEnd":"none",
 			"color":"#000000"
+		},
+		{
+			"id":"467dbcc0275af72a",
+			"styleAttributes":{"arrow":"thin-triangle"},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"bbe0784f6517c784",
+			"fromSide":"top",
+			"toNode":"8d0f2f7a5adf3775",
+			"toSide":"bottom",
+			"color":"3"
+		},
+		{
+			"id":"0d6b79e415e58ebb",
+			"styleAttributes":{"pathfindingMethod":"a-star"},
+			"toFloating":false,
+			"fromNode":"1a30cc85eb989bee",
+			"fromSide":"bottom",
+			"toNode":"504e2351a229e8b7",
+			"toSide":"top",
+			"toEnd":"none",
+			"color":"#ffffff"
+		},
+		{
+			"id":"82ad8f5f8b149b55",
+			"styleAttributes":{"arrow":"thin-triangle","path":"long-dashed"},
+			"toFloating":false,
+			"fromNode":"70559e4fcd2be68d",
+			"fromSide":"left",
+			"toNode":"29cf7aa377f551bd",
+			"toSide":"left",
+			"color":"6"
+		},
+		{
+			"id":"81c4d3c67b072c8c",
+			"styleAttributes":{"path":"long-dashed","arrow":"thin-triangle"},
+			"toFloating":false,
+			"fromNode":"29cf7aa377f551bd",
+			"fromSide":"right",
+			"toNode":"39498720cb0629ce",
+			"toSide":"right",
+			"color":"6"
 		}
 	],
 	"metadata":{
